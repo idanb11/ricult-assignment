@@ -1,40 +1,16 @@
-const { MongoClient } = require("mongodb");
-
-const logger = require("./config/winston");
-
-// config should be imported before importing any other file
+const { Client } = require("@elastic/elasticsearch");
 const config = require("./config/config");
+
+const client = new Client({ node: config.elasticServerUrl });
+const logger = require("./config/winston");
 const app = require("./config/express");
 
-// mongoose.Promise = Promise;
+app.locals.client = client;
 
-// connect to mongo db
-const mongoUri = config.mongo.host;
-const client = new MongoClient(mongoUri, {
-  useUnifiedTopology: true,
-  poolSize: 10,
-});
-
-client
-  .connect()
-  .then(() => {
-    logger.info("Database connected.");
-
-    const db = client.db('ricult');
-    const collection = db.collection('locations');
-
-    app.locals.collection = collection;
-
-    if (!module.parent) {
-      // listen on port config.port
-      app.listen(config.port, () => {
-        logger.info(`server started on port ${config.port}.`);
-      });
-    }
-  })
-  .catch((err) => {
-    logger.error("Unable to connect to database", { error: err });
-    process.exit(1);
+if (!module.parent) {
+  app.listen(config.apiPort, () => {
+    logger.info(`server started on port ${config.apiPort}.`);
   });
+}
 
 module.exports = { app };

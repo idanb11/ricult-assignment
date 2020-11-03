@@ -14,6 +14,7 @@
         "named": "never"
       }
     ],
+    "max-len":"off",
     "quotes": "off",
     "no-use-before-define": [
       2,

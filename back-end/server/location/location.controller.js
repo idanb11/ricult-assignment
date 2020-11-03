@@ -1,11 +1,24 @@
 const logger = require("../../config/winston");
 
 const getLocations = async (req, res, next) => {
-  const { collection } = req.app.locals;
+  const { client } = req.app.locals;
   const { q } = req.query;
   try {
-    const data = await collection.find({}).limit(10).toArray();
-    res.json(data);
+    const { body } = await client.search({
+      index: "locations",
+      body: {
+        query: {
+          match: {
+            name: {
+              query: q,
+              fuzziness: "AUTO",
+            },
+          },
+        },
+      },
+    });
+
+    res.status(200).json(body.hits.hits);
   } catch (error) {
     logger.error("Error getting locations", {
       q,
