@@ -12,7 +12,6 @@ const cors = require('cors');
 const winstonInstance = require('./winston');
 const routes = require('../index.route');
 const config = require('./config');
-const APIError = require('../server/helpers/APIError');
 
 const app = express();
 
@@ -54,20 +53,16 @@ app.use((err, req, res, next) => {
   if (err instanceof expressValidation.ValidationError) {
     // validation error contains errors which is an array of error each containing message[]
     const unifiedErrorMessage = err.errors.map((error) => error.messages.join('. ')).join(' and ');
-    const error = new APIError(unifiedErrorMessage, err.status, true);
+    const error = new Error(unifiedErrorMessage, err.status, true);
     return next(error);
   }
 
-  if (!(err instanceof APIError)) {
-    const apiError = new APIError(err.message, err.status, err.isPublic);
-    return next(apiError);
-  }
   return next(err);
 });
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
-  const err = new APIError('API not found', httpStatus.NOT_FOUND);
+  const err = new Error('API not found', httpStatus.NOT_FOUND);
   return next(err);
 });
 

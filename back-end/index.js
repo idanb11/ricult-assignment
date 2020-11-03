@@ -1,25 +1,29 @@
-const mongoose = require('mongoose');
-const util = require('util');
-const debug = require('debug')('ms-store-quiz:index');
-const logger = require('./config/winston');
+const { MongoClient } = require("mongodb");
+
+const logger = require("./config/winston");
 
 // config should be imported before importing any other file
-const config = require('./config/config');
-const app = require('./config/express');
-const redis = require('./cache/redis');
+const config = require("./config/config");
+const app = require("./config/express");
 
-// make bluebird default Promise
-mongoose.Promise = Promise;
+// mongoose.Promise = Promise;
 
 // connect to mongo db
 const mongoUri = config.mongo.host;
-const settings = { useNewUrlParser: true };
+const client = new MongoClient(mongoUri, {
+  useUnifiedTopology: true,
+  poolSize: 10,
+});
 
-
-mongoose.connect(mongoUri, settings)
-  .then(() => redis.connect())
+client
+  .connect()
   .then(() => {
-    logger.info('Database connected.');
+    logger.info("Database connected.");
+
+    const db = client.db('ricult');
+    const collection = db.collection('locations');
+
+    app.locals.collection = collection;
 
     if (!module.parent) {
       // listen on port config.port
@@ -29,15 +33,8 @@ mongoose.connect(mongoUri, settings)
     }
   })
   .catch((err) => {
-    logger.error('Unable to connect to database', { error: err });
+    logger.error("Unable to connect to database", { error: err });
     process.exit(1);
   });
 
-// print mongoose logs in dev env
-if (config.mongooseDebug) {
-  mongoose.set('debug', (collectionName, method, query, doc) => {
-    debug(`${collectionName}.${method}`, util.inspect(query, false, 20), doc);
-  });
-}
-
-module.exports = { app, redis };
+module.exports = { app };
