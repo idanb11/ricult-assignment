@@ -1,0 +1,24 @@
+<mat-toolbar>
+  <span>Ricult </span>
+  <span class="example-spacer"></span>
+  <img src="./assets/footer-logo.png" />
+</mat-toolbar>
+
+<div class="text-center">
+  <h4>Search Farm</h4>
+  <mat-form-field appearance="fill">
+    <mat-label>Farm</mat-label>
+    <mat-select [(value)]="selected">
+      <mat-select-trigger>
+        {{selected ? selected._source.name : ''}}
+      </mat-select-trigger>
+      <mat-option
+        *ngFor="let location of locations"
+        [value]="location"
+      >
+        <mat-icon class="material-icons"> near_me </mat-icon>
+        {{ location._source.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
