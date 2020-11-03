@@ -1,0 +1,4809 @@
+{
+  "questions": [
+    {
+      "answers": [],
+      "_id": "5db59acd7482a5013e10b896",
+      "status": "active",
+      "order": 0,
+      "viewType": "opening-screen",
+      "value": {
+        "title": [
+          "Meet your",
+          "concealer&nbsp;",
+          "Match."
+        ],
+        "subtitle": [
+          "We've got 30 shades for all skin tones. Let's find yours.",
+          "Take the quiz then try your perfect match",
+          "FREE for 14 days."
+        ],
+        "button": "Take the quiz"
+      },
+      "displayId": "q0"
+    },
+    {
+      "previousQuestionId": "q0",
+      "answers": [
+        {
+          "_id": "5daee670ec75f02d6caf8e10",
+          "value": {
+            "title": "Dry",
+            "subtitle": "Married to my moisturizer"
+          },
+          "viewType": "list-divided",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q2",
+          "displayId": "a1"
+        },
+        {
+          "_id": "5daee670ec75f02d6caf8e11",
+          "value": {
+            "title": "Oily",
+            "subtitle": "I live for blotting papers and powder"
+          },
+          "viewType": "list-divided",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q2",
+          "displayId": "a2"
+        },
+        {
+          "_id": "5daee670ec75f02d6caf8e12",
+          "value": {
+            "title": "Combination",
+            "subtitle": "Each part of my face has a mind of its own"
+          },
+          "viewType": "list-divided",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q2",
+          "displayId": "a3"
+        },
+        {
+          "_id": "5daee670ec75f02d6caf8e13",
+          "value": {
+            "title": "Balanced",
+            "subtitle": "Yeah, I’m blessed"
+          },
+          "viewType": "list-divided",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q2",
+          "displayId": "a4"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8dfc",
+      "status": "active",
+      "order": 1,
+      "viewType": "list",
+      "value": {
+        "title": "What's your skin type?"
+      },
+      "displayId": "q1"
+    },
+    {
+      "previousQuestionId": "q1",
+      "answers": [
+        {
+          "_id": "5daee672ec75f02d6caf8e14",
+          "value": {
+            "title": "Lightweight",
+            "subtitle": "Lorem Ipsum 1"
+          },
+          "viewType": "slider",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q3",
+          "displayId": "a5"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e15",
+          "value": {
+            "title": "Light To Medium",
+            "subtitle": "Lorem Ipsum 2"
+          },
+          "viewType": "slider",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q3",
+          "displayId": "a6"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e16",
+          "value": {
+            "title": "Medium",
+            "subtitle": "Lorem Ipsum 3"
+          },
+          "viewType": "slider",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q3",
+          "displayId": "a7"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e17",
+          "value": {
+            "title": "Medium To Full",
+            "subtitle": "Lorem Ipsum 4"
+          },
+          "viewType": "slider",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q3",
+          "displayId": "a8"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e18",
+          "value": {
+            "title": "Full",
+            "subtitle": "Lorem Ipsum 5"
+          },
+          "viewType": "slider",
+          "order": 5,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q3",
+          "displayId": "a9"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8dfd",
+      "status": "active",
+      "order": 2,
+      "viewType": "slider",
+      "value": {
+        "title": "What kind of coverage are you craving?"
+      },
+      "displayId": "q2"
+    },
+    {
+      "previousQuestionId": "q2",
+      "answers": [
+        {
+          "_id": "5daee674ec75f02d6caf8e30",
+          "value": {
+            "title": "Matte",
+            "subtitle": "a velvety, shine-free finish"
+          },
+          "viewType": "list-divided",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q4",
+          "displayId": "a33"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e31",
+          "value": {
+            "title": "Natural",
+            "subtitle": "a smooth, weightless, uniformed look"
+          },
+          "viewType": "list-divided",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q4",
+          "displayId": "a34"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e32",
+          "value": {
+            "title": "Luminous",
+            "subtitle": "a radiant, natural glow"
+          },
+          "viewType": "list-divided",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q4",
+          "displayId": "a35"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e33",
+          "value": {
+            "title": "Girl, I have no idea"
+          },
+          "viewType": "list-default",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q4",
+          "displayId": "a36"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e03",
+      "status": "active",
+      "order": 3,
+      "viewType": "list",
+      "value": {
+        "title": "What kind of finish are you looking for?"
+      },
+      "displayId": "q3"
+    },
+    {
+      "previousQuestionId": "q3",
+      "answers": [
+        {
+          "_id": "5daee672ec75f02d6caf8e19",
+          "value": {
+            "title": "Light",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/2/_/2.png"
+          },
+          "viewType": "image-text",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q5",
+          "displayId": "a10"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e1a",
+          "value": {
+            "title": "Medium",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/4/b/4b.png"
+          },
+          "viewType": "image-text",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q6",
+          "displayId": "a11"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e1b",
+          "value": {
+            "title": "Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/6/_/6.png"
+          },
+          "viewType": "image-text",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q7",
+          "displayId": "a12"
+        },
+        {
+          "_id": "5daee672ec75f02d6caf8e1c",
+          "value": {
+            "title": "Deep",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/8/_/8.png"
+          },
+          "viewType": "image-text",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q8",
+          "displayId": "a13"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8dfe",
+      "status": "active",
+      "order": 4,
+      "viewType": "2-steps-images-step-1",
+      "value": {
+        "title": "We've got 50 shades. Let's find yours.",
+        "subtitle": "Which one of these is closest to your skin tone?"
+      },
+      "displayId": "q4"
+    },
+    {
+      "previousQuestionId": "q4",
+      "answers": [
+        {
+          "_id": "5daee673ec75f02d6caf8e1d",
+          "value": {
+            "title": "Fair",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/1/_/1.png"
+          },
+          "viewType": "image-text",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a14"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e1e",
+          "value": {
+            "title": "Light",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/2/_/2_1.png"
+          },
+          "viewType": "image-text",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a15"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e1f",
+          "value": {
+            "title": "Medium Light",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/3/_/3_1.png"
+          },
+          "viewType": "image-text",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a16"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8dff",
+      "status": "active",
+      "order": 5,
+      "viewType": "2-steps-images-step-2",
+      "value": {
+        "title": "Awesome, let's get a little more precise.",
+        "subtitle": "Which one of these skin tones best matches yours?"
+      },
+      "displayId": "q5"
+    },
+    {
+      "previousQuestionId": "q4",
+      "answers": [
+        {
+          "_id": "5daee673ec75f02d6caf8e20",
+          "value": {
+            "title": "Medium Light",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/3/_/3_1.png"
+          },
+          "viewType": "image-text",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a16"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e21",
+          "value": {
+            "title": "Medium",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/4/b/4b_1.png"
+          },
+          "viewType": "image-text",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a18"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e22",
+          "value": {
+            "title": "Medium Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/5/_/5.png"
+          },
+          "viewType": "image-text",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a19"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e00",
+      "status": "active",
+      "order": 6,
+      "viewType": "2-steps-images-step-2",
+      "value": {
+        "title": "Awesome, let's get a little more precise.",
+        "subtitle": "Which one of these skin tones best matches yours?"
+      },
+      "displayId": "q6"
+    },
+    {
+      "previousQuestionId": "q4",
+      "answers": [
+        {
+          "_id": "5daee673ec75f02d6caf8e23",
+          "value": {
+            "title": "Light Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/1/0/10a.png"
+          },
+          "viewType": "image-text",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a20"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e24",
+          "value": {
+            "title": "Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/6/_/6_1.png"
+          },
+          "viewType": "image-text",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a21"
+        },
+        {
+          "_id": "5daee673ec75f02d6caf8e25",
+          "value": {
+            "title": "Deep Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/7/_/7_2.png"
+          },
+          "viewType": "image-text",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a22"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e01",
+      "status": "active",
+      "order": 7,
+      "viewType": "2-steps-images-step-2",
+      "value": {
+        "title": "Awesome, let's get a little more precise.",
+        "subtitle": "Which one of these skin tones best matches yours?"
+      },
+      "displayId": "q7"
+    },
+    {
+      "previousQuestionId": "q4",
+      "answers": [
+        {
+          "_id": "5daee674ec75f02d6caf8e26",
+          "value": {
+            "title": "Deep Tan",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/7/_/7_2.png"
+          },
+          "viewType": "image-text",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a22"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e27",
+          "value": {
+            "title": "Deep",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/8/_/8_1.png"
+          },
+          "viewType": "image-text",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a24"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e28",
+          "value": {
+            "title": "Deep +",
+            "imageUrl": "https://www.ilmakiage.com/media/answer/image/9/_/9.png"
+          },
+          "viewType": "image-text",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q9",
+          "displayId": "a25"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e02",
+      "status": "active",
+      "order": 8,
+      "viewType": "2-steps-images-step-2",
+      "value": {
+        "title": "Awesome, let's get a little more precise.",
+        "subtitle": "Which one of these skin tones best matches yours?"
+      },
+      "displayId": "q8"
+    },
+    {
+      "previousQuestionId": "q4",
+      "answers": [
+        {
+          "_id": "5daee674ec75f02d6caf8e2c",
+          "value": {
+            "title": "Yellow / Warm"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q10",
+          "dialog": {
+            "order": 1,
+            "title": [
+              "You picked Yellow/Warm Undertone!",
+              "That means you likely:"
+            ],
+            "subtitle": [
+              "1. Veins appear to have a greenish hue",
+              "2. Tan or darken when out in the sun",
+              "3. Look better in gold jewelry"
+            ],
+            "footer": "Sound right?",
+            "options": [
+              "q13",
+              "q16"
+            ]
+          },
+          "displayId": "a29"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e2d",
+          "value": {
+            "title": "Pink / Cool"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q11",
+          "dialog": {
+            "order": 2,
+            "title": [
+              "You picked Pink/Cool Undertone!",
+              "That means you likely:"
+            ],
+            "subtitle": [
+              "1. Veins appear to have a blue-ish, purple color",
+              "2. Burn easily when out in the sun",
+              "3. Look better in silver jewelry"
+            ],
+            "footer": "Sound right?",
+            "options": [
+              "q13",
+              "q16"
+            ]
+          },
+          "displayId": "a30"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e2e",
+          "value": {
+            "title": "Neutral"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q12",
+          "dialog": {
+            "order": 3,
+            "title": [
+              "You picked Neutral Undertone!",
+              "That means you likely:"
+            ],
+            "subtitle": [
+              "1. Veins appear to have a mix of a greenish and bluish hue",
+              "2. Tan but can burn if you stay in the sun too long",
+              "3. Look equally good in gold and silver jewelry"
+            ],
+            "footer": "Sound right?",
+            "options": [
+              "q13",
+              "q16"
+            ]
+          },
+          "displayId": "a31"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e2f",
+          "value": {
+            "title": "I Don't Know"
+          },
+          "viewType": "list-default",
+          "order": 4,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q13",
+          "displayId": "a32"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e04",
+      "status": "active",
+      "order": 9,
+      "viewType": "popup",
+      "value": {
+        "title": "What’s your undertone?",
+        "subtitle": [
+          "Which one of these skin tones best matches yours?",
+          "Don’t worry. This question always trips people up."
+        ]
+      },
+      "displayId": "q9"
+    },
+    {
+      "previousQuestionId": "q9",
+      "answers": [
+        {
+          "_id": "5daee674ec75f02d6caf8e29",
+          "value": {
+            "title": "More blue / purple"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q14",
+          "displayId": "a26"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e2a",
+          "value": {
+            "title": "More green"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q14",
+          "displayId": "a27"
+        },
+        {
+          "_id": "5daee674ec75f02d6caf8e2b",
+          "value": {
+            "title": "I see different colors on each"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q14",
+          "displayId": "a28"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e05",
+      "status": "active",
+      "order": 10,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "All good, we’ve got you!"
+        ],
+        "subtitle": [
+          "Turn your light on, push your sleeves up and check out the veins on the inside of your wrists.",
+          "Are they more blue or green?"
+        ]
+      },
+      "displayId": "q10"
+    },
+    {
+      "previousQuestionId": "q10",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e34",
+          "value": {
+            "title": "Silver"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q15",
+          "displayId": "a37"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e35",
+          "value": {
+            "title": "Gold"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q15",
+          "displayId": "a38"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e36",
+          "value": {
+            "title": "Girl, I look good in everything"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q15",
+          "displayId": "a39"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e06",
+      "status": "active",
+      "order": 11,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "Do you look better in gold or silver jewelry?"
+        ],
+        "subtitle": [
+          "Not which you like more, but which brings out your most natural glow."
+        ]
+      },
+      "displayId": "q11"
+    },
+    {
+      "previousQuestionId": "q11",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e3b",
+          "value": {
+            "title": "I burn, Fast"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q16",
+          "displayId": "a44"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e3c",
+          "value": {
+            "title": "I tan but cant burn if i stay out too long"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q16",
+          "displayId": "a45"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e3d",
+          "value": {
+            "title": "I tan / darken"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q16",
+          "displayId": "a46"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e07",
+      "status": "active",
+      "order": 12,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "What happens to your skin when you're out in the sun?"
+        ]
+      },
+      "displayId": "q12"
+    },
+    {
+      "previousQuestionId": "q12",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e40",
+          "value": {
+            "title": "Lighter"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q17",
+          "displayId": "a49"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e41",
+          "value": {
+            "title": "Darker"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 1,
+          "nextQuestionId": "q17",
+          "displayId": "a50"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e08",
+      "status": "active",
+      "order": 13,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "During this time of year, does your skin tone tend to get darker or lighter?"
+        ]
+      },
+      "displayId": "q13"
+    },
+    {
+      "previousQuestionId": "q13",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e49",
+          "value": {
+            "title": "With a brush"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q18",
+          "displayId": "a58"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e4a",
+          "value": {
+            "title": "With a blender / sponge"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q18",
+          "displayId": "a59"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e4b",
+          "value": {
+            "title": "Darker"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q18",
+          "displayId": "a60"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e09",
+      "status": "active",
+      "order": 14,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "Alright we get a little jealous, but let’s talk about your current everyday foundation."
+        ],
+        "subtitle": [
+          "How do you usually apply it?"
+        ]
+      },
+      "displayId": "q14"
+    },
+    {
+      "previousQuestionId": "q14",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e4c",
+          "value": {
+            "title": "Moisterizer"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q19",
+          "displayId": "a61"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e4d",
+          "value": {
+            "title": "Face Oil"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q19",
+          "displayId": "a62"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e4e",
+          "value": {
+            "title": "Primer"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q19",
+          "displayId": "a63"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e4f",
+          "value": {
+            "title": "I Don't Prep"
+          },
+          "viewType": "list-default",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q19",
+          "displayId": "a64"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e0a",
+      "status": "active",
+      "order": 15,
+      "multiselect": true,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "How do you usually prep your skin before applying foundation?"
+        ],
+        "subtitle": [
+          "(Check all that apply)"
+        ]
+      },
+      "displayId": "q15"
+    },
+    {
+      "previousQuestionId": "q15",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e37",
+          "value": {
+            "title": "I user powder"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q20",
+          "displayId": "a40"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e38",
+          "value": {
+            "title": "I use setting spray"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q20",
+          "displayId": "a41"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e39",
+          "value": {
+            "title": "I use powder & setting spray"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q20",
+          "displayId": "a42"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e3a",
+          "value": {
+            "title": "I don't set it"
+          },
+          "viewType": "list-default",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q20",
+          "displayId": "a43"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e0b",
+      "status": "active",
+      "order": 16,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "How do you set your foundation?"
+        ]
+      },
+      "displayId": "q16"
+    },
+    {
+      "previousQuestionId": "q16",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e3e",
+          "value": {
+            "title": "All day, Everyday"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q21",
+          "displayId": "a47"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e3f",
+          "value": {
+            "title": "Just for special occasions"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q21",
+          "displayId": "a48"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e0c",
+      "status": "active",
+      "order": 17,
+      "viewType": "list",
+      "value": {
+        "title": [
+          "How often do you wear foundation?"
+        ]
+      },
+      "displayId": "q17"
+    },
+    {
+      "previousQuestionId": "q17",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf95b4",
+          "viewType": "select-box",
+          "viewLevel": 3,
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q22",
+          "value": {
+            "title": [
+              "brand",
+              "foundation",
+              "shade"
+            ]
+          },
+          "source": {
+            "brand": {
+              "Aveda": {
+                "foundation": {
+                  "Inner Light Mineral Dual Foundation": {
+                    "shade": [
+                      "01 Cream"
+                    ]
+                  },
+                  "Inner Light Mineral Tinted Moisture SPF 15": {
+                    "shade": [
+                      "04 Sandstone"
+                    ]
+                  }
+                }
+              },
+              "Avon": {
+                "foundation": {
+                  "Perfect Wear Extralasting Foundation SPF 15 - DISCONTINUED": {
+                    "shade": [
+                      "Beautiful Bronze"
+                    ]
+                  }
+                }
+              },
+              "Bare Escentuals": {
+                "foundation": {
+                  "BareSkin Pure Brightening Serum Foundation SPF 20 PA+++": {
+                    "shade": [
+                      "Bare Buff 10 - For Medium to Tan skin with Warm undertones",
+                      "Bare Caramel 14 - For Tan skin with Warm undertones",
+                      "Bare Cream 05 - For Light skin with Warm undertone",
+                      "Bare Honey 15 - For Tan to Dark skin with Warm undertones",
+                      "Bare Ivory 04 - For Light to Medium skin with Warm undertone",
+                      "Bare Latte 11 - For Tan skin with Cool to Neutral undertones",
+                      "Bare Maple 17 - For Dark skin with Golden undertones",
+                      "Bare Nude 09 - For Medium skin with Warm undertone",
+                      "Bare Sand 12 - For tan skin with Neutral to Warm undertones",
+                      "Bare Satin 06 - For Medium skin with Cool undertone",
+                      "Bare Tan 13 - For Tan to Dark skin with Neutral to Warm undertones"
+                    ]
+                  },
+                  "Complexion Rescue Tinted Moisturizer - Hydrating Gel Cream": {
+                    "shade": [
+                      "Bamboo 5.5 - For Light to Medium skin with Neutral to Warm undertones",
+                      "Birch 1.5 - For Fair to Light skin with with Neutral to Warm undertones",
+                      "Buttercream 03 - For Light skin with Warm undertones",
+                      "Chestnut 09 - For Dark skin with Neutral to Warm undertones",
+                      "Desert 6.5 - For Tan skin with Neutral to Warm undertones",
+                      "Dune 7.5 - For Medium to Tan skin with Neutral to Warm undertones",
+                      "Ginger 06 - For Medium skin with Warm undertones",
+                      "Opal 01 - For Fair skin with Cool undertones",
+                      "Suede 04 - For Medium to Tan skin with Cool undertones",
+                      "Tan 07 - For Tan skin with Cool undertones",
+                      "Terra 8.5 - For Tan to Dark skin with Warm undertones",
+                      "Wheat 4.5 - For Medium skin with Neutral undertones"
+                    ]
+                  },
+                  "Prime Time BB Primer-Cream Daily Defense Broad Spectrum SPF 30": {
+                    "shade": [
+                      "Light"
+                    ]
+                  },
+                  "Ready SPF20 Foundation": {
+                    "shade": [
+                      "R210 Medium"
+                    ]
+                  }
+                }
+              },
+              "BECCA": {
+                "foundation": {
+                  "Aqua Luminous Perfecting Foundation": {
+                    "shade": [
+                      "Dark Golden - Deep with neutral\/golden undertones",
+                      "Tan - Medium\/tan with neutral undertones",
+                      "Warm Honey - Medium\/deep with neutral undertones"
+                    ]
+                  },
+                  "Ever-Matte Shine Proof Foundation": {
+                    "shade": [
+                      "Bamboo",
+                      "Buff",
+                      "Buttercup",
+                      "Cocoa",
+                      "Fawn",
+                      "Mahogany",
+                      "Mink",
+                      "Olive",
+                      "Sand",
+                      "Sienna",
+                      "Tobacco"
+                    ]
+                  },
+                  "Ultimate Coverage 24 Hour Foundation": {
+                    "shade": [
+                      "Amber - Deep Tan, Warm\/Red Undertones",
+                      "Bamboo - Dark Tan Beige, Yellow\/Golden Undertones",
+                      "Cacao - Deep Chocolate, Neutral Undertones",
+                      "Cafe - Light Tan Beige, Neutral to Warm Undertones",
+                      "Espresso (Previously Mink)  - Chocolate Brown, Neutral to Cool Undertones",
+                      "Fawn - Dark Tan Beige, Warm\/Red Undertones",
+                      "Linen - Lightest Beige, Neutral Undertones",
+                      "Maple (previously Tobacco) - Dark Golden, Neutral to Warm Undertones",
+                      "Noisette - Light Tan Beige, Neutral Undertones",
+                      "Olive - Medium Beige, Yellow\/Golden Undertones",
+                      "Porcelain - Ivory beige, Pink Undertones",
+                      "Sandalwood - Golden Chocolate, Red Undertones",
+                      "Sienna - Warm Brown, Neutral Undertones",
+                      "Tan - Medium to Tan Beige, Neutral to Pink Undertones",
+                      "Walnut - Warm Medium Brown, Red Undertones"
+                    ]
+                  }
+                }
+              },
+              "Benefit": {
+                "foundation": {
+                  "Hello Happy Soft Blur Foundation": {
+                    "shade": [
+                      "01 Fair - Cool",
+                      "03 Light - Neutral"
+                    ]
+                  }
+                }
+              },
+              "Black Up Cosmetics": {
+                "foundation": {
+                  "CC Cream Multi-Action": {
+                    "shade": [
+                      "CC05"
+                    ]
+                  },
+                  "Fluid Foundation": {
+                    "shade": [
+                      "FL06",
+                      "FL10",
+                      "FL11",
+                      "FL14"
+                    ]
+                  },
+                  "Full Coverage Cream Foundation": {
+                    "shade": [
+                      "3",
+                      "7",
+                      "8",
+                      "9",
+                      "HC03",
+                      "HC07",
+                      "HC08",
+                      "HC09"
+                    ]
+                  },
+                  "Matifying Fluid Foundation": {
+                    "shade": [
+                      "NFL 03",
+                      "NFL 10",
+                      "NFL 11"
+                    ]
+                  },
+                  "Matifying Foundation": {
+                    "shade": [
+                      "FM05"
+                    ]
+                  },
+                  "New Matifying Fluid Foundation": {
+                    "shade": [
+                      "NFL06",
+                      "NFL09"
+                    ]
+                  },
+                  "Two Way Cake": {
+                    "shade": [
+                      "TW01",
+                      "TW04"
+                    ]
+                  }
+                }
+              },
+              "Bobbi Brown": {
+                "foundation": {
+                  "BB Cream SPF 30+": {
+                    "shade": [
+                      "Medium",
+                      "Natural"
+                    ]
+                  },
+                  "BB Cream SPF 35": {
+                    "shade": [
+                      "Extra Light - Fair Beige with Light Neutral undertones; for Pale to Extra Light skin.",
+                      "Fair - Medium Beige with Neutral undertones; for Light to Medium skin",
+                      "Light - Light Beige with Neutral undertones; for Fair to Light skin",
+                      "Medium - Medium Beige with Pink undertones; for Light to Medium skin"
+                    ]
+                  },
+                  "Extra Tinted Moisturiser Balm Foundation SPF 25": {
+                    "shade": [
+                      "Medium Tint"
+                    ]
+                  },
+                  "Intensive Skin Serum Foundation SPF 25": {
+                    "shade": [
+                      "Beige (3)",
+                      "Natural (4)",
+                      "Natural Tan (4.25)",
+                      "Sand (2)",
+                      "Warm Almond",
+                      "Warm Ivory (1)",
+                      "Warm Sand (2.5)"
+                    ]
+                  },
+                  "Intensive Skin Serum Foundation SPF 40": {
+                    "shade": [
+                      "Alabaster (00) - Lightest Beige with a White hint and Pink undertone; for Palest skin.",
+                      "Cool Sand (2.25) - Cool Light Beige with Pink undertones; for Fair to Light skin",
+                      "Honey (5) - Tanned Beige with Peachy Yellow undertones; for Medium to Dark skin.",
+                      "Porcelain (0) - Very Fair Beige with Neutral undertones; for extra Light skin",
+                      "Warm Almond (6.5) - Golden Medium Brown; for Dark skin",
+                      "Warm Beige (3.5) - Medium Golden Beige with Yellow undertones; for Medium skin",
+                      "Warm Ivory (1) - Fair Beige with Light Yellow undertones; for Fair skin",
+                      "Warm Natural (4.5) - Olive Tanned Beige with Yellow undertones; for Medium skin"
+                    ]
+                  },
+                  "Long Wear Even Finish Compact Foundation": {
+                    "shade": [
+                      "Warm Porcelain (0.5)"
+                    ]
+                  },
+                  "Moisture Rich Foundation SPF 15": {
+                    "shade": [
+                      "Almond (7)",
+                      "Warm Almond (6.5)",
+                      "Warm Honey (5.5)"
+                    ]
+                  },
+                  "Retouching Wand": {
+                    "shade": [
+                      "Medium - Medium Peach with Pink undertones; corrects and conceals Red\/Bluish tints in the skin"
+                    ]
+                  },
+                  "Skin Foundation Cushion Compact SPF 30": {
+                    "shade": [
+                      "Extra Light",
+                      "Light to Medium",
+                      "Medium"
+                    ]
+                  },
+                  "Skin Foundation Cushion Compact SPF 35": {
+                    "shade": [
+                      "Medium To Dark"
+                    ]
+                  },
+                  "Skin Foundation SP15 PA+": {
+                    "shade": [
+                      "Almond (7) - Medium Brown with Yellow undertones; for Medium to Dark skin",
+                      "Beige (3) - Medium Beige with Neutral undertones; for Light to Medium skin",
+                      "Cool Almond (7.25) - Cool Medium Brown with Olive undertones; for Dark skin",
+                      "Cool Golden (6.25) - Cool Light Brown with Olive undertones; for Medium to Dark skin",
+                      "Cool Ivory (1.25) - Cool Fair beige with Neutral undertones; for extra Light to Fair skin",
+                      "Golden (6) - Light Brown with Peachy Yellow undertones; for Medium to Dark skin",
+                      "Golden Almond (6.75) - Medium Brown with Olive and Yellow undertones; for Deep skin",
+                      "Golden Honey (5.75) - Golden Light Brown with Olive and Yellow undertones; for Dark skin",
+                      "Golden Natural (4.75) - Golden Olive Beige with Olive and Yellow undertones; for Medium to Dark skin",
+                      "Honey (5) - Tanned Beige with Peachy Yellow undertones; for Medium to Dark skin",
+                      "Natural Tan (4.25) - Neutral Beige with Yellow and Pink undertones; for Medium skin",
+                      "Porcelain (0) - Very Fair Beige with Neutral undertones; for extra Light skin",
+                      "Warm Almond (6.5) - Golden Medium Brown; for Dark skin",
+                      "Warm Beige (3.5) - Medium Golden Beige with Yellow undertones; for Medium skin",
+                      "Warm Honey (5.5) - Deep Tanned Beige with Yellow and Golden undertones; for Medium to Dark skin",
+                      "Warm Ivory (1) - Fair Beige with Light Yellow undertones; for Fair skin",
+                      "Warm Natural (4.5) - Olive Tanned Beige with Yellow undertones; for Medium skin",
+                      "Warm Sand (2.5) - Golden Light Beige with Yellow undertones; for Fair to Light skin with redness",
+                      "Warm Walnut (7.5) - Golden Rich Brown with Yellow and Brown undertones; for Dark skin"
+                    ]
+                  },
+                  "Skin Long-Wear Weightless Foundation SPF 15": {
+                    "shade": [
+                      "Almond 7 - Medium Brown with Yellow undertones; for Medium to Dark skin",
+                      "Beige 3 - Medium Beige with Neutral undertones, for Light to Medium skin",
+                      "Cool Almond 7.25 - Cool Medium Brown with Olive undertones; for Dark skin",
+                      "Cool Golden 6.25 - Cool Light Brown with Olive undertones; for Medium to Dark skin",
+                      "Cool Ivory 1.25 - Cool Fair Beige with Neutral undertones; for extra Light to Fair skin",
+                      "Cool Sand 2.25 - Cool Light Beige with Pink undertones; for Fair to Light skin",
+                      "Cool Walnut 8.25 - Cool Rich Brown with Neutral undertones; for Deep skin",
+                      "Golden 6 - Light Brown with Peachy Yellow undertones; for Medium to Dark skin",
+                      "Golden Almond 6.75 - Medium Brown with Olive and Yellow undertones; for Deep skin",
+                      "Golden Honey 5.75 - Golden Light Brown with Olive and Yellow undertones; for Dark skin",
+                      "Golden Natural 4.75 - Golden Olive Beige with Olive and Yellow undertones; for Medium to Dark skin",
+                      "Honey 5 - Tanned Beige with Peachy Yellow undertones; for Medium to Dark skin",
+                      "Ivory 0.75 - Fair Beige with Light Neutral undertones, for extra Light to Fair skin",
+                      "Natural 4 - Olive Beige with Neutral undertones; for Medium skin",
+                      "Natural Tan 4.25 - Neutral Beige with Yellow and Pink undertones; for Medium skin",
+                      "Porcelain 0 - Very Fair Beige with Neutral undertones; for extra Light skin",
+                      "Sand 2 - Light Beige with Neutral undertones; for Fair to Light skin",
+                      "Warm Almond 6.5 - Golden Medium Brown; for Dark skin",
+                      "Warm Beige 3.5 - Medium Golden Beige with Yellow undertones; for Medium skin",
+                      "Warm Honey 5.5 - Deep Tanned Beige with Yellow and Golden undertones, for Medium to Dark skin",
+                      "Warm Ivory 1 - Fair Beige with Light Yellow undertones; for Fair skin",
+                      "Warm Natural 4.5 - Olive Tanned Beige with Yellow undertones; for Medium skin",
+                      "Warm Sand 2.5 - Golden Light Beige with Yellow undertones; for Fair to Light skin with Redness",
+                      "Warm Walnut 7.5 - Golden Rich Brown with Yellow and Brown undertones; for Dark skin"
+                    ]
+                  },
+                  "Skin Moisture Compact Foundation": {
+                    "shade": [
+                      "Beige (3)",
+                      "Natural (4)"
+                    ]
+                  },
+                  "Skin Nourishing Glow Foundation": {
+                    "shade": [
+                      "Beige 3",
+                      "Cool Porcelain 0.25",
+                      "Cool Sand 2.25",
+                      "Porcelain 0",
+                      "Sand 2",
+                      "Warm Ivory 1",
+                      "Warm Porcelain 0.5",
+                      "Warm Sand 2.5"
+                    ]
+                  }
+                }
+              },
+              "Bourjois": {
+                "foundation": {
+                  "Air Mat Foundation": {
+                    "shade": [
+                      "05 Beige Dore \/ Golden Beige"
+                    ]
+                  },
+                  "City Radiance Brightening Effect Foundation": {
+                    "shade": [
+                      "01 Rose Ivory \/ Ivoire Rose",
+                      "02 Vanilla \/ Vanille"
+                    ]
+                  },
+                  "Healthy Mix Anti-Fatigue BB Cream": {
+                    "shade": [
+                      "01 Clair \/ Light"
+                    ]
+                  }
+                }
+              },
+              "Burberry Beauty": {
+                "foundation": {
+                  "Cashmere - Soft Matte Foundation": {
+                    "shade": [
+                      "11 Porcelain",
+                      "12 Ochre Nude  - Very fair with yellow undertone",
+                      "20 Ochre - Fair with rosy undertone",
+                      "26 Beige - Medium with peach undertone",
+                      "32 Honey - Medium with golden undertone"
+                    ]
+                  },
+                  "Fresh Glow Compact Foundation": {
+                    "shade": [
+                      "31 Rosy Nude",
+                      "32 Honey"
+                    ]
+                  },
+                  "Fresh Glow Luminous Fluid Foundation": {
+                    "shade": [
+                      "11 Porcelain - Very fair with pink undertone",
+                      "12 Ochre Nude - Very fair with yellow undertone"
+                    ]
+                  }
+                }
+              },
+              "Buxom": {
+                "foundation": {
+                  "Show Some Skin Weightless Foundation": {
+                    "shade": [
+                      "Silky Negli-Beige",
+                      "Tickle The Ivory"
+                    ]
+                  }
+                }
+              },
+              "By Terry": {
+                "foundation": {
+                  "Cellularose Moisturising CC Cream": {
+                    "shade": [
+                      "N\u00b01 Nude"
+                    ]
+                  },
+                  "Light-Expert Click Brush - Illuminating Flawless Foundation Brush": {
+                    "shade": [
+                      "N\u00b04 Rosy Beige"
+                    ]
+                  },
+                  "Sheer-Expert Perfecting Fluid Foundation": {
+                    "shade": [
+                      "N\u00b01 Fair Beige",
+                      "N\u00b03 Cream Beige"
+                    ]
+                  },
+                  "Terrybly Densiliss Anti-Wrinkle Serum Foundation": {
+                    "shade": [
+                      "N\u00b03 Vanilla Beige",
+                      "N\u00b05 Medium Peach",
+                      "N\u00b06 Light Amber",
+                      "N\u00b07 Golden Beige",
+                      "N\u00b08 Warm Sand"
+                    ]
+                  }
+                }
+              },
+              "Calvin Klein": {
+                "foundation": {
+                  "3-in-1 Face Makeup With SPF 8": {
+                    "shade": [
+                      "100 Porcelain",
+                      "200 Fair"
+                    ]
+                  },
+                  "Infinite Hydration Moisturizing Foundation": {
+                    "shade": [
+                      "105 Caramel"
+                    ]
+                  }
+                }
+              },
+              "CHANEL": {
+                "foundation": {
+                  "Le Blanc Light Revealing Whitening Fluid Foundation": {
+                    "shade": [
+                      "20 Beige"
+                    ]
+                  },
+                  "Le Teint Ultra Tenue Ultrawear Flawless Compact Foundation": {
+                    "shade": [
+                      "20 Beige"
+                    ]
+                  },
+                  "Le Teint Ultra Tenue Ultrawear Flawless Foundation": {
+                    "shade": [
+                      "10 Beige",
+                      "12 Beige Rose",
+                      "121 Caramel",
+                      "152 Chocolate",
+                      "30 Beige",
+                      "40 Beige",
+                      "50 Beige",
+                      "60 Beige",
+                      "91 Caramel"
+                    ]
+                  },
+                  "Les Beiges Fluide Belle Mine Multiaction": {
+                    "shade": [
+                      "N\u00b0 20"
+                    ]
+                  },
+                  "Les Beiges Healthy Glow Foundation": {
+                    "shade": [
+                      "N\u00b0 10",
+                      "N\u00b0 12 Rose",
+                      "N\u00b0 121 Caramel",
+                      "N\u00b0 20",
+                      "N\u00b0 22 Rose",
+                      "N\u00b0 30",
+                      "N\u00b0 40",
+                      "N\u00b0 91 Caramel"
+                    ]
+                  },
+                  "Les Beiges Healthy Glow Sheer Colour": {
+                    "shade": [
+                      "N\u00b0 30"
+                    ]
+                  },
+                  "Les Beiges Sheer Healthy Glow Tinted Moisturizer": {
+                    "shade": [
+                      "Light",
+                      "Medium Plus"
+                    ]
+                  },
+                  "Lift Lumiere Firming And Smoothing Sunscreen Fluid Makeup": {
+                    "shade": [
+                      "12 Opaline"
+                    ]
+                  },
+                  "Mat Lumiere Long Lasting Luminous Matte Fluid Makeup": {
+                    "shade": [
+                      "60 Hale"
+                    ]
+                  },
+                  "Perfection Lumiere Long-Wear Flawless Fluid Makeup": {
+                    "shade": [
+                      "44 Beige Ambre"
+                    ]
+                  },
+                  "Perfection Lumiere Velvet Smooth-Effect Makeup": {
+                    "shade": [
+                      "10 Beige",
+                      "12 Beige Rose",
+                      "22 Beige Rose",
+                      "50 Beige",
+                      "60 Beige"
+                    ]
+                  },
+                  "Sublimage Le Teint Ultimate Radiance Generating Cream Foundation": {
+                    "shade": [
+                      "10 Beige",
+                      "20 Beige",
+                      "21 Beige",
+                      "22 Beige Rose",
+                      "30 Beige"
+                    ]
+                  },
+                  "Vitalumiere Aqua Makeup Base Fresh And Moisturizing Compact Cream": {
+                    "shade": [
+                      "60 Beige"
+                    ]
+                  },
+                  "White Essentiel Light Reflecting Whitening Compact Foundation": {
+                    "shade": [
+                      "20 Beige Rose"
+                    ]
+                  }
+                }
+              },
+              "Charlotte Tilbury": {
+                "foundation": {
+                  "Light Wonder Youth-Boosting Perfect Skin Foundation": {
+                    "shade": [
+                      "7 Medium",
+                      "8 Medium"
+                    ]
+                  },
+                  "Magic Foundation Broad Spectrum SPF 15": {
+                    "shade": [
+                      "1 Fair - for very fair skin tones",
+                      "11 Dark",
+                      "12 dark",
+                      "2 Fair - for very fair skin tones",
+                      "3 Fair - for very fair skin tones",
+                      "4.5 Medium",
+                      "5 Medium",
+                      "6 Medium",
+                      "7 Medium",
+                      "8 Medium"
+                    ]
+                  },
+                  "The Retoucher": {
+                    "shade": [
+                      "2 - Fair",
+                      "3 - Medium",
+                      "4 - Medium"
+                    ]
+                  }
+                }
+              },
+              "Clarins": {
+                "foundation": {
+                  "Creme De Soins Multi-hydratante Teintee": {
+                    "shade": [
+                      "02 Honey"
+                    ]
+                  },
+                  "Extra-Comfort Foundation": {
+                    "shade": [
+                      "108 Sand"
+                    ]
+                  },
+                  "Super Restorative Foundation SPF15 \/ Teint Lift Eclat": {
+                    "shade": [
+                      "07 Tender Ivory"
+                    ]
+                  },
+                  "True Radiance Foundation": {
+                    "shade": [
+                      "103 - Ivory",
+                      "108 Sand"
+                    ]
+                  }
+                }
+              },
+              "Clinique": {
+                "foundation": {
+                  "Anti-Blemish Solutions BB Cream SPF 40": {
+                    "shade": [
+                      "Light",
+                      "Light Medium",
+                      "Medium"
+                    ]
+                  },
+                  "Continuous Coverage Makeup Broad Spectrum SPF 15": {
+                    "shade": [
+                      "Natural Honey Glow 02"
+                    ]
+                  },
+                  "Even Better Compact Makeup Broad Spectrum": {
+                    "shade": [
+                      "24 Golden"
+                    ]
+                  },
+                  "Even Better Glow Light Reflecting Makeup SPF 15": {
+                    "shade": [
+                      "CN 02 Breeze",
+                      "CN 10 Alabaster",
+                      "CN 126 Espresso",
+                      "CN 20 Fair",
+                      "CN 28 Ivory",
+                      "CN 40 Cream Chamois",
+                      "CN 52 Neutral",
+                      "CN 70 Vanilla",
+                      "CN 74 Beige",
+                      "CN 90 Sand",
+                      "WN 04 Bone",
+                      "WN 112 Ginger",
+                      "WN 114 Golden",
+                      "WN 12 Meringue",
+                      "WN 122 Clove",
+                      "WN 124 Sienna",
+                      "WN 22 Ecru",
+                      "WN 38 Stone",
+                      "WN 48 Oat",
+                      "WN 54 Honey Wheat",
+                      "WN 68 Brulee",
+                      "WN 92 Toasted Almond",
+                      "WN 98 Cream Caramel"
+                    ]
+                  },
+                  "Even Better Makeup Broad Spectrum SPF 15": {
+                    "shade": [
+                      "11 Porcelain Beige (CN 62)",
+                      "20 Sienna (WN 124)",
+                      "29 Latte (WN 82)",
+                      "32 Pecan (WN 120)"
+                    ]
+                  },
+                  "Moisture Surge Tinted Moisturizer SPF 15": {
+                    "shade": [
+                      "Shade 1 (Alabaster)"
+                    ]
+                  },
+                  "Perfectly Real Makeup": {
+                    "shade": [
+                      "Shade 34",
+                      "Shade 39",
+                      "Shade 45",
+                      "Shade 46"
+                    ]
+                  },
+                  "Superbalanced Makeup": {
+                    "shade": [
+                      "01 Petal",
+                      "02 Fair",
+                      "04 Cream Chamois",
+                      "05 Vanilla",
+                      "06 Linen",
+                      "09 Sand",
+                      "11 Sunny",
+                      "18 Clove",
+                      "27 Alabaster",
+                      "32 Breeze"
+                    ]
+                  },
+                  "Superbalanced Silk Makeup Broad Spectrum 15": {
+                    "shade": [
+                      "06 Silk Cream Chamois",
+                      "10 Silk Honeymilk",
+                      "12 Silk Maple",
+                      "15 Silk Nutmeg",
+                      "17 Silk Cinnamon",
+                      "18 Silk Sable"
+                    ]
+                  }
+                }
+              },
+              "Cover FX": {
+                "foundation": {
+                  "Custom Cover Drops": {
+                    "shade": [
+                      "G20 - For Fair to Light skin with Golden undertones",
+                      "G60 - For Medium-Deep skin with Golden undertones",
+                      "G70 - For Medium to Deeply Tanned skin with Golden undertones",
+                      "G80 - For Deep Medium skin with Golden undertones",
+                      "N110 - For Deep Ebony skin with Rich Neutral undertones",
+                      "N120 - For Deepest Rich Ebony skin with Neutral undertones",
+                      "N25 - For Light skin with Neutral undertones",
+                      "N30 - For Light to Medium Light skin with Neutral undertones",
+                      "N50 - For Medium to Tan skin with Neutral undertones",
+                      "N60 - For Medium-Deep skin with Neutral undertones",
+                      "N70 - For Medium to Deeply Tanned skin with Neutral undertones",
+                      "N80 - Deep Medium Skin with Neutral Undertones",
+                      "P20 - For Fair to Light skin with Pink undertones",
+                      "P50  - For Medium to Tan skin with Pink undertones"
+                    ]
+                  },
+                  "Natural Finish Oil Free Foundation": {
+                    "shade": [
+                      "G+40 - For Medium Olive skin with Golden Undertones",
+                      "G+50 - For Medium to Tan Olive skin with Golden Undertones",
+                      "G+60 - For Medium-Deep to Deeply Tanned Olive skin with Golden Undertones",
+                      "G+90",
+                      "G10 - For Porcelain to Light skin with Golden Undertones",
+                      "G100 - For Deep Brown skin with Golden Undertones",
+                      "G110 - For Deepest Brown skin with Golden Undertones",
+                      "G20 - For Fair to Light skin with Golden Undertones",
+                      "G40 - For Medium skin with Golden Undertones",
+                      "G50 - For Medium to Tan skin with Golden Undertones",
+                      "G60 - For Medium-Deep skin with Pink Undertones",
+                      "G70 - For Medium to Deeply Tanned skin with Golden Undertones",
+                      "G80 - For Deep Medium skin with Golden Undertones",
+                      "G90 - For Medium-Deep Brown skin with Golden Undertones",
+                      "N10 - For Porcelain to Light skin with Neutral Undertones",
+                      "N110 - For Deepest Rich Ebony skin with Neutral Undertones",
+                      "N20 - For Fair to Light skin with Neutral Undertones",
+                      "N30 - For Light to Medium Light skin with Neutral Undertones",
+                      "N40 - For Medium skin with Neutral Undertones",
+                      "N50 - For Medium to Tan skin with Neutral Undertones",
+                      "N60 - For Medium-Deep skin with Neutral Undertones",
+                      "N70 - For Medium to Deeply Tanned skin with Neutral Undertones",
+                      "N80 - For Deep Medium skin with Neutral Undertones",
+                      "N90 - For Dark to Deep skin with Neutral Undertones",
+                      "P10 - For Porcelain to Light skin with Pink Undertones",
+                      "P20 - For Fair to Light skin with Pink Undertones",
+                      "P30 - For Light to Medium Light skin with Pink Undertones",
+                      "P40 - For Medium skin with Pink Undertones",
+                      "P50 - For Medium to Tan skin with Pink Undertones"
+                    ]
+                  },
+                  "Power Play Foundation": {
+                    "shade": [
+                      "G+40 - For Medium Olive skin with Golden undertones",
+                      "G+50 - For Medium to Tan Olive skin with golden undertones",
+                      "G+60 - For Medium-Deep to Deeply Tanned Olive skin with Golden undertones",
+                      "G10 - For Porcelain to Light skin with Golden undertones",
+                      "G100 - For Deep Brown skin with Golden undertones",
+                      "G110 - For Deepest Brown skin with Golden undertones",
+                      "G20 - For Porcelain to Light skin with Pink undertones",
+                      "G30 - For Light to Medium Light skin with Golden undertones",
+                      "G40 - For Medium skin with Golden undertones",
+                      "G50 - For Medium to Tan skin with Golden undertones",
+                      "G60 - For Medium-Deep skin with Golden undertones",
+                      "G70 - For Medium to Deeply Tanned skin with Golden undertones",
+                      "G80 - For Deep Medium skin with Golden undertones",
+                      "G90 - For Medium-Deep Brown skin with Golden undertones",
+                      "N10 - For Porcelain to Light skin with Neutral undertones",
+                      "N100 - For Deep skin with Neutral undertones",
+                      "N110 - For Deepest Rich ebony skin with Neutral undertones",
+                      "N120 - For Deepest Rich ebony skin with Neutral undertones",
+                      "N20 - For Fair to Light skin with Neutral undertones",
+                      "N25 - For Light skin with Neutral undertones",
+                      "N30 - For Light to Medium Light skin with Neutral undertones",
+                      "N35 - For Medium Light skin with Neutral undertones",
+                      "N40 - For Medium skin with Neutral undertones",
+                      "N50 - For Medium to Tan skin with Neutral undertones",
+                      "N60 - For Medium-Deep skin with Neutral undertones",
+                      "N70 - For Medium to Deeply Tanned skin with Neutral undertones",
+                      "N80 - For Deep Medium skin with Neutral undertones",
+                      "N85 - For Medium Brown skin with Neutral undertones",
+                      "N90 - For Dark to Deep skin with Neutral undertones",
+                      "P10 - For Porcelain to Light skin with Pink undertones",
+                      "P100 - For Deep Brown Red hued skin with Pink undertones",
+                      "P20 - For Fair to Light skin with Pink undertones",
+                      "P40 - For Medium skin with Pink undertones",
+                      "P50 - For Medium to Tan skin with Pink undertones",
+                      "P60 - For Medium-Deep to Deeply Tanned skin with Pink undertones"
+                    ]
+                  },
+                  "Pressed Mineral Foundation": {
+                    "shade": [
+                      "G+50 - For Medium to Tan Olive skin with Golden undertones",
+                      "G+60 - For Medium-Deep to Deeply Tanned Olive skin with Golden undertones",
+                      "G100 - For Deep Brown skin with Golden undertones",
+                      "G20 - For Fair to Light skin with Golden undertones",
+                      "G70 - For Medium to Deeply Tanned skin with Golden undertones",
+                      "G90 - For Medium-Deep Brown skin with Golden undertones",
+                      "N0 - For Fairest Porcelain skin with Neutral undertones",
+                      "N100 - For Deep skin with Neutral undertones",
+                      "N110 - For Deepest Rich Ebony skin with Neutral undertones",
+                      "N20 - For Fair to Light skin with Neutral undertones",
+                      "N30 - For Light to Medium Light skin with Neutral undertones",
+                      "N70 - For Medium to Deeply Tanned skin with Neutral undertones",
+                      "N80 - For Deep Medium skin with Neutral undertones"
+                    ]
+                  },
+                  "Total Cover Cream Foundation SPF30": {
+                    "shade": [
+                      "G100 - Deepest Brown Skin with Golden Undertones",
+                      "G30 - Light to Medium Light Skin with Golden Undertones",
+                      "G50 - Medium to Tan Skin with Golden Undertones",
+                      "G60 - Medium-Deep Skin with Golden Undertones",
+                      "G70 - Medium to Deeply Tanned Skin with Golden Undertones",
+                      "G90 - Medium-Deep Brown Skin with Golden Undertones",
+                      "N100 - Deep Skin with Neutral Undertones",
+                      "N20 - Fair to Light Skin with Neutral Undertones",
+                      "N40 - Medium Skin with Neutral Undertones",
+                      "N70 - Medium to Deeply Tanned Skin with Neutral Undertones",
+                      "N90 - Dark to Deep Skin with Neutral Undertones",
+                      "P100 - Deep Brown Red Hued Skin with Pink Undertones"
+                    ]
+                  }
+                }
+              },
+              "CoverGirl": {
+                "foundation": {
+                  "Clean Matte BB Cream": {
+                    "shade": [
+                      "550 Medium Deep",
+                      "560 Deep"
+                    ]
+                  },
+                  "Outlast Stay Fabulous 3-in-1 Foundation": {
+                    "shade": [
+                      "Classic Tan 860 \/ 960"
+                    ]
+                  },
+                  "Queen Collection Flawless Foundation": {
+                    "shade": [
+                      "Almond Glow Q840",
+                      "Soft Copper Q830"
+                    ]
+                  },
+                  "Queen Collection Natural Hue Compact Foundation": {
+                    "shade": [
+                      "Almond Glow Q515",
+                      "Golden Honey Q525"
+                    ]
+                  },
+                  "Vitalist Healthy Elixir Foundation": {
+                    "shade": [
+                      "705 Ivory",
+                      "710 Classic Ivory",
+                      "720 Creamy Natural",
+                      "725 Buff Beige",
+                      "732 Nude Beige",
+                      "740 Natural Beige",
+                      "742 Medium Beige",
+                      "745 Warm Beige",
+                      "755 Soft Honey",
+                      "757 Golden Tan",
+                      "760 Classic Tan",
+                      "765 Tawny",
+                      "775 Soft Sable"
+                    ]
+                  }
+                }
+              },
+              "Dermacol": {
+                "foundation": {
+                  "Make-Up Cover Foundation": {
+                    "shade": [
+                      "207",
+                      "212",
+                      "218"
+                    ]
+                  }
+                }
+              },
+              "Dior": {
+                "foundation": {
+                  "Backstage Face & Body Foundation": {
+                    "shade": [
+                      "0CR - 0 Cool Rosy",
+                      "0W - 0 Warm",
+                      "1CR - 1 Cool Rosy",
+                      "1N - 1 Neutral",
+                      "1W - 1 Warm",
+                      "2.5N - 2.5 Neutral",
+                      "2N - 2 Neutral",
+                      "2WO - 2 Warm Olive",
+                      "3.5N - 3.5 Neutral",
+                      "3N - 3 Neutral",
+                      "3W - 3 Warm",
+                      "3WO - 3 Warm Olive",
+                      "4W - 4 Warm",
+                      "4WO - 4 Warm Olive",
+                      "5N - 5 Neutral"
+                    ]
+                  },
+                  "Diorskin Airflash": {
+                    "shade": [
+                      "104 Fair Almond",
+                      "203 Ochre Beige",
+                      "401 Ochre"
+                    ]
+                  },
+                  "Diorskin Forever Perfect Cushion": {
+                    "shade": [
+                      "010 Ivory",
+                      "011 Cream",
+                      "020 Light Beige",
+                      "021 Linen",
+                      "030 Medium Beige"
+                    ]
+                  },
+                  "Diorskin Forever Perfect Makeup Broad Spectrum SPF 35": {
+                    "shade": [
+                      "011 Creme",
+                      "014 Fair Almond",
+                      "015 Tender Beige",
+                      "021 Linen",
+                      "022 Cameo",
+                      "025 Soft Beige",
+                      "030 Medium Beige",
+                      "031 Sand",
+                      "035 Dark Beige",
+                      "040 Honey Beige",
+                      "041 Ochre",
+                      "045 Hazel Beige",
+                      "050 Dark Beige",
+                      "051 Praline",
+                      "060 Mocha",
+                      "080 Ebony"
+                    ]
+                  },
+                  "Diorskin Forever Undercover Foundation": {
+                    "shade": [
+                      "010 Ivory",
+                      "015 Tender Beige",
+                      "020 Light Beige",
+                      "021 Linen",
+                      "024 Soft Almond",
+                      "025 Soft Beige",
+                      "030 Medium Beige",
+                      "032 Rosy Beige",
+                      "035 Desert Beige",
+                      "040 Honey Beige",
+                      "041 Ochre",
+                      "080 Ebony"
+                    ]
+                  },
+                  "Diorskin Nude Air Serum": {
+                    "shade": [
+                      "010 Ivory",
+                      "050 Dark Beige"
+                    ]
+                  },
+                  "Diorskin Nude Glowing Skin Makeup SPF 15": {
+                    "shade": [
+                      "022 Cameo",
+                      "040 Honey Beige",
+                      "050 Dark Beige",
+                      "060 Light Mocha",
+                      "070 Dark Brown"
+                    ]
+                  },
+                  "Diorskin Nude Natural Glow Hydrating Makeup SPF 10": {
+                    "shade": [
+                      "010 Ivory"
+                    ]
+                  },
+                  "Diorskin Star Studio Makeup": {
+                    "shade": [
+                      "010 Ivory",
+                      "011 Creme",
+                      "021 Linen",
+                      "030 Medium Beige",
+                      "050 Dark Beige",
+                      "060 Mocha"
+                    ]
+                  },
+                  "Diorsnow": {
+                    "shade": [
+                      "Cameo 22",
+                      "Light Begie 20",
+                      "Linen 21"
+                    ]
+                  },
+                  "Prestige Foundation Creme": {
+                    "shade": [
+                      "021 Linen"
+                    ]
+                  }
+                }
+              },
+              "e.l.f. (eyes. lips. face)": {
+                "foundation": {
+                  "Acne Fighting Foundation": {
+                    "shade": [
+                      "Beige #83123",
+                      "Buff #83122",
+                      "Porcelain #83121"
+                    ]
+                  },
+                  "Flawless Finish Oil-Free Foundation SPF15": {
+                    "shade": [
+                      "Caramel (Previously Almond)",
+                      "Coco",
+                      "Honey Previously Caramel)",
+                      "Light Ivory",
+                      "Sand",
+                      "Tan (Previously Buff)"
+                    ]
+                  },
+                  "Studio Tinted Moisturizer SPF 20": {
+                    "shade": [
+                      "Nude #83222"
+                    ]
+                  }
+                }
+              },
+              "Elizabeth Arden": {
+                "foundation": {
+                  "Flawless Finish Mousse Makeup": {
+                    "shade": [
+                      "Beige"
+                    ]
+                  },
+                  "Flawless Finish Perfectly Satin 24hr": {
+                    "shade": [
+                      "Alabaster 01"
+                    ]
+                  },
+                  "Intervene Makeup SPF 15": {
+                    "shade": [
+                      "Soft Cocoa"
+                    ]
+                  },
+                  "PREVAGE Anti-Aging Foundation Broad Spectrum Sunscreen SPF 30": {
+                    "shade": [
+                      "Shade 2"
+                    ]
+                  }
+                }
+              },
+              "Estee Lauder": {
+                "foundation": {
+                  "Double Wear All Day Glow BB Moisture Makeup SPF 30": {
+                    "shade": [
+                      "Intensity 2.0",
+                      "Intensity 3.0",
+                      "Intensity 3.5"
+                    ]
+                  },
+                  "Double Wear Light Stay-in-Place Makeup": {
+                    "shade": [
+                      "Intensity 3.5",
+                      "Intensity 6.5"
+                    ]
+                  },
+                  "Double Wear Maximum Cover Camouflage Long Wear Face and Body SPF 15": {
+                    "shade": [
+                      "1N1 Ivory Nude",
+                      "2N1 Desert Beige",
+                      "2W2 Rattan",
+                      "3C4 Medium\/Deep",
+                      "5W2 Rich Caramel"
+                    ]
+                  },
+                  "Double Wear Nude Water Fresh Makeup Broad Spectrum SPF 30 Foundation": {
+                    "shade": [
+                      "1C0 Shell",
+                      "1C1 Cool Bone",
+                      "1C2 Petal",
+                      "1N2 Ecru",
+                      "1W2 Sand",
+                      "2C0 Cool Vanilla",
+                      "2C1 Pure Beige",
+                      "2C2 Pale Almond",
+                      "2N1 Desert Beige",
+                      "2N2 Buff",
+                      "2W0 Warm Vanilla",
+                      "2W1 Dawn",
+                      "2W2 Rattan",
+                      "3N1 Ivory Beige",
+                      "3N2 Wheat",
+                      "3W1 Tawny",
+                      "3W1.5 Fawn",
+                      "3W2 Cashew",
+                      "4N1 Shell Beige",
+                      "4N2 Spiced Sand",
+                      "4W1 Honey Bronze",
+                      "5N1 Rich Ginger",
+                      "5W1 Bronze",
+                      "5W1.5 Cinnamon",
+                      "5W2 Rich Caramel",
+                      "6C1 Rich Cocoa",
+                      "6W1 Sandalwood"
+                    ]
+                  },
+                  "Double Wear Stay-in-Place Makeup SPF10": {
+                    "shade": [
+                      "1C0 Shell",
+                      "1C1 Cool Bone - Pale Ivory Beige with Cool undertones",
+                      "1C2 Petal",
+                      "1N0 Porcelain",
+                      "1N1 Ivory Nude- Light Ivory",
+                      "1W0 Warm Porcelain",
+                      "1W1 Bone - Pale Yellow to Ivory with Warm undertones",
+                      "1W2 Sand - Soft Beige with Warm to Yellow undertones",
+                      "2C4 Ivory Rose",
+                      "2N1 Desert Beige - Light to Medium Beige with Warm Neutral undertones",
+                      "2N2 Buff",
+                      "2W0 Warm Vanilla",
+                      "2W1 Dawn - Light to Medium Warm Beige",
+                      "2W2 Rattan - Light to Medium with Warm Beige",
+                      "3C0 Cool Creme",
+                      "3C1 Dusk - Medium Beige with Cool undertones",
+                      "3W1 Tawny - Tanned Beige with Warm undertones",
+                      "3W1.5 Fawn",
+                      "3W2 Cashew - Medium to Golden Warm Beige",
+                      "4N2 Spiced Sand - Medium to Deep Neutral Tan",
+                      "4W1 Honey Bronze - Medium to Deep Warm Tan",
+                      "4W2 Toasty Toffee - Medium to Deep with Deep Warm Tan",
+                      "4W3 Henna",
+                      "5N1 Rich Ginger",
+                      "5N1.5 Maple",
+                      "5N2 Amber Honey - Deep Neutral Brown",
+                      "5W1 Bronze - Deep Olive Bronze with Warm undertones",
+                      "5W1.5 Cinnamon",
+                      "5W2 Rich Caramel - Deep Warm Brown",
+                      "6C1 Rich Cocoa - Deep Cool Tan",
+                      "6C2 Pecan - Deep with Cool undertones",
+                      "6N1 Mocha - Deep with Neutral undertones",
+                      "6N2 Truffle - Deep Ivory with Neutral undertones",
+                      "6W1 Sandalwood - Rich Warm Brown",
+                      "6W2 Nutmeg - Deep with Warm undertones",
+                      "7C1 Rich Mahogany - Ultra Deep with Cool undertones",
+                      "7N1 Deep Amber - Ultra Deep with Neutral undertones",
+                      "7W1 Deep Spice - Ultra Deep with Warm undertones",
+                      "8N1 Espresso - Ultra Deep with Neutral undertones"
+                    ]
+                  },
+                  "Futurist Aqua Brilliance Compact Makeup SPF 20\/PA++": {
+                    "shade": [
+                      "1C0 Cool Porcelain"
+                    ]
+                  },
+                  "Perfectionist Youth-Infusing Makeup SPF 25": {
+                    "shade": [
+                      "1W2 Sand",
+                      "2N1 Desert Beige",
+                      "2W2 Rattan",
+                      "3W2 Cashew",
+                      "5W2 Rich Caramel",
+                      "6W1 Sandalwood"
+                    ]
+                  },
+                  "Resilience Lift Extreme Radiant Lifting Makeup SPF 15": {
+                    "shade": [
+                      "5N1 Natural Tan (36)"
+                    ]
+                  }
+                }
+              },
+              "Fenty Beauty": {
+                "foundation": {
+                  "Match Stix Trios": {
+                    "shade": [
+                      "Deep 400 (Suede, Espresso, Sinamon)",
+                      "Tan 300 (Caramel, Truffle, Rum)"
+                    ]
+                  },
+                  "Pro Filt'r Soft Matte Longwear Foundation": {
+                    "shade": [
+                      "110 Light Cool",
+                      "120 Light Neutral",
+                      "130 Light Warm",
+                      "140 Light Warm",
+                      "150 Light Neutral",
+                      "160 Light Warm Peach",
+                      "170 Light Cool",
+                      "180 Light Warm",
+                      "190 Light Neutral",
+                      "210 Medium Neutral",
+                      "220 Medium Warm Peach",
+                      "230 Medium Neutral",
+                      "240 Medium Warm",
+                      "250 Medium Warm Peach",
+                      "260 Medium Neutral",
+                      "270 Medium Warm",
+                      "280 Medium Warm Peach",
+                      "290 Medium Neutral Olive",
+                      "300 Tan Neutral",
+                      "310 Tan Warm",
+                      "320 Tan Warm Peach",
+                      "330 Tan Warm",
+                      "340 Tan Cool",
+                      "350 Tan Neutral",
+                      "360 Tan Neutral Olive",
+                      "370 Tan Warm",
+                      "380 Tan Cool",
+                      "390 Tan Warm",
+                      "400 Deep Warm",
+                      "410 Deep Cool",
+                      "420 Deep Neutral",
+                      "430 Deep Neutral",
+                      "440 Deep Cool",
+                      "450 Deep Warm",
+                      "460 Deep Cool",
+                      "470 Deep Neutral",
+                      "480 Deep Neutral",
+                      "490 Deep Cool"
+                    ]
+                  }
+                }
+              },
+              "Giorgio Armani": {
+                "foundation": {
+                  "Designer Lift Smoothing Firming Foundation SPF 20": {
+                    "shade": [
+                      "2 Light , Warm",
+                      "5 Medium , Neutral",
+                      "6.5 Medium , Gold"
+                    ]
+                  },
+                  "Designer Shaping Cream Foundation SPF 20": {
+                    "shade": [
+                      "3"
+                    ]
+                  },
+                  "Face Fabric Foundation SPF12": {
+                    "shade": [
+                      "5 Dark Beige"
+                    ]
+                  },
+                  "Lasting Silk UV Foundation SPF 20": {
+                    "shade": [
+                      "6 Medium Golden"
+                    ]
+                  },
+                  "Luminessence CC Cream": {
+                    "shade": [
+                      "1",
+                      "2"
+                    ]
+                  },
+                  "Luminous Silk Compact": {
+                    "shade": [
+                      "2 Fair"
+                    ]
+                  },
+                  "Luminous Silk Foundation": {
+                    "shade": [
+                      "11",
+                      "13 Deep, Neutral",
+                      "14 Deep, Red - Very deep skin with red undertone",
+                      "3 Light, Warm - Fair skin with golden undertone",
+                      "4.25 Light, Peachy - Light skin with peachy undertone",
+                      "6 Medium, Warm - Medium skin with Warm undertone",
+                      "6.25 Medium, Peachy - Medium to tan skin with peachy undertone",
+                      "7.5 Tan, Warm - Tan skin with warm undertone",
+                      "8.5 Deep, Warm - Tan to deep with warm undertone",
+                      "9 Deep, Neutral - Tan to deep with neutral undertone"
+                    ]
+                  },
+                  "Maestro Fusion Makeup Octinoxate Sunscreen SPF 15": {
+                    "shade": [
+                      "6 Medium, Warm - Medium skin with warm undertone",
+                      "9 - Tan to deep skin golden undertone"
+                    ]
+                  },
+                  "Maestro Glow Nourishing Fusion Makeup SPF 30": {
+                    "shade": [
+                      "2 - Fair skin with warm undertone",
+                      "5 Light, Rosy - Light skin with rosy undertone"
+                    ]
+                  },
+                  "My Armani To Go New Iconic Cushion": {
+                    "shade": [
+                      "2",
+                      "3",
+                      "4.5"
+                    ]
+                  },
+                  "Power Fabric Longwear High Cover Foundation SPF 25": {
+                    "shade": [
+                      "1 Very Fair, Rosy",
+                      "2 Fair, Golden",
+                      "3 Fair, Rosy",
+                      "3.5 Fair, Neutral",
+                      "4 Fair, Warm",
+                      "4.5 Light, Golden",
+                      "5 Light, Neutral",
+                      "6 Medium, Warm",
+                      "6.5 Medium Tan, Neutral",
+                      "7 Tan, Neutral",
+                      "8 Tan, Warm",
+                      "9 Tan, Rosy"
+                    ]
+                  }
+                }
+              },
+              "Givenchy": {
+                "foundation": {
+                  "Matissime Velvet Radiant Mattifying Fluid Foundation SPF 20": {
+                    "shade": [
+                      "N01 Mat Porcelain - Light with Neutral balance",
+                      "N03 Mat Sand - Light Sand with Neutral balance",
+                      "N08 Mat Amber - Dark with Warm undertones"
+                    ]
+                  },
+                  "Photo Perfexion Fluid Foundation SPF 20": {
+                    "shade": [
+                      "N\u00b001 Perfect Ivory",
+                      "N\u00b005 Perfect Praline",
+                      "N\u00b008 Perfect Amber"
+                    ]
+                  },
+                  "Photo Perfexion Light Fluid Foundation": {
+                    "shade": [
+                      "N\u00b005 Light Honey"
+                    ]
+                  },
+                  "Radically No Surgetics Age Defying & Perfecting Fondation SPF 15": {
+                    "shade": [
+                      "02 - Radiant Opal"
+                    ]
+                  },
+                  "Teint Couture Blurring Foundation Balm Broad Spectrum 15": {
+                    "shade": [
+                      "N\u00b001 Nude Porcelain - Light with Warm Yellow undertones"
+                    ]
+                  },
+                  "Teint Couture Long-Wearing Fluid Foundation Broad Spectrum SPF 20": {
+                    "shade": [
+                      "N\u00b01 Elegant Porcelain",
+                      "N\u00b05 Elegant Honey"
+                    ]
+                  }
+                }
+              },
+              "Guerlain": {
+                "foundation": {
+                  "Blanc De Perle Fluid Brightening Foundation SPF 20": {
+                    "shade": [
+                      "02 Beige Clair",
+                      "03 Beige Naturel",
+                      "32 Ambre Clair"
+                    ]
+                  },
+                  "Lingerie De Peau Aqua Nude Water-Infused Perfecting Fluid SPF20": {
+                    "shade": [
+                      "01W - Very Light Warm",
+                      "02N - Light",
+                      "04N - Medium",
+                      "05W - Deep Warm"
+                    ]
+                  },
+                  "Lingerie De Peau Natural Perfection Skin Fusion Texture SPF 20": {
+                    "shade": [
+                      "00N Porcelaine \/ Porcelain",
+                      "01C Tres Clair Rose",
+                      "01N Tres Clair",
+                      "02N Clair \/ Light",
+                      "03 Natural",
+                      "03N Naturel \/ Natural",
+                      "03W Natural Warm",
+                      "03W Naturel Dore \/ Natural Warm",
+                      "04N Moyen \/ Medium",
+                      "04W Medium Warm",
+                      "04W Moyen Dore \/ Medium Warm",
+                      "05W Deep Warm",
+                      "05W Fonce Dore \/  Deep Warm"
+                    ]
+                  },
+                  "Parure Golden Gold Radiance Fluid Foundation": {
+                    "shade": [
+                      "00 Beige Ivoire"
+                    ]
+                  },
+                  "Terracotta Joli Teint Foundation": {
+                    "shade": [
+                      "Natural"
+                    ]
+                  }
+                }
+              },
+              "Huda Beauty": {
+                "foundation": {
+                  "FauxFilter Foundation": {
+                    "shade": [
+                      "Amaretti 310G - Light Medium skin tones with Golden undertones",
+                      "Angel Food 110N - Ultra Fair skin tones with Neutral undertones",
+                      "Baklava 340G - Deep Medium skin tones with Golden and Neutral undertones",
+                      "Brown Sugar 410G - Lightly Tan skin tones with Golden undertones",
+                      "Butter Pecan 330N - Medium skin tones with Neutral Undertones",
+                      "Cashew 140G - Deep Fair skin tones with Golden and Peach undertones",
+                      "Chai 210B - Ultra Light skin tones with Beige and Golden undertones",
+                      "Cheesecake 250G - Deep Light skin tones with Golden and Peach undertones",
+                      "Chocolate Mousse 450G - Ultra Tan skin tones with Golden and Neutral undertones",
+                      "Chocolate Truffle 540G - Ultra Rich skin tones with Golden undertones",
+                      "Cinnamon 440G - Ultra Tan skin tones with Golden undertones",
+                      "Cocoa 510R - Light Rich skin tones with Red undertones",
+                      "Coffee Bean 530R - Rich skin tones with Red undertones",
+                      "Creme Brulee 150G - Deep Fair skin tones with Golden undertones",
+                      "Custard 220N - Light skin tones with Neutral and Peach undertone",
+                      "Dulce De Leche 350G - Deep Medium skin tones with Golden undertones",
+                      "Gingerbread 430N - Tan skin tones with Neutral undertones",
+                      "Hot Fudge 550R - Ultra Rich skin tones with Red undertones",
+                      "Latte 300N - Light Medium skin tones with Neutral undertones",
+                      "Macaroon 230N - Light skin tones with Neutral and Rose undertones",
+                      "Macchiato 400G - Lightly Tan skin tones with Golden and Neutral undertones",
+                      "Milkshake 100B - Ultra Fair skin tones with Beige undertones",
+                      "Mocha 500G - Light Rich skin tones with Golden undertones",
+                      "Nutmeg 520G - Rich skin tones with Golden undertones",
+                      "Panna Cotta 130G - Fair skin tones with Golden undertones",
+                      "Shortbread 200B - Ultra Light skin tones with Beige undertones",
+                      "Toasted Coconut 240N",
+                      "Toffee 420G - Tan skin tones with Golden undertones",
+                      "Tres Leches 320G - Medium skin tones with Golden undertones",
+                      "Vanilla 120B - Fair skin tones with Beige undertones"
+                    ]
+                  }
+                }
+              },
+              "Ilia": {
+                "foundation": {
+                  "True Skin Serum Foundation": {
+                    "shade": [
+                      "Tavarua SF2"
+                    ]
+                  }
+                }
+              },
+              "Illamasqua": {
+                "foundation": {
+                  "Skin Base Foundation": {
+                    "shade": [
+                      "10.5",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                }
+              },
+              "Iman": {
+                "foundation": {
+                  "Second to None Luminous Foundation": {
+                    "shade": [
+                      "Clay 5"
+                    ]
+                  },
+                  "Skin Tone Evener BB Creme SPF 15": {
+                    "shade": [
+                      "Clay Medium \/ Brown",
+                      "Earth Medium"
+                    ]
+                  }
+                }
+              },
+              "Inglot": {
+                "foundation": {
+                  "HD Perfect Cover Up Foundation": {
+                    "shade": [
+                      "79"
+                    ]
+                  },
+                  "YSM Cream Foundation": {
+                    "shade": [
+                      "40",
+                      "52"
+                    ]
+                  }
+                }
+              },
+              "IT Cosmetics": {
+                "foundation": {
+                  "Bye Bye Foundation Full Coverage Moisturizer": {
+                    "shade": [
+                      "Fair",
+                      "Medium Tan",
+                      "Tan"
+                    ]
+                  },
+                  "Bye Bye Lines Foundation": {
+                    "shade": [
+                      "Fair",
+                      "Light"
+                    ]
+                  },
+                  "Celebration Foundation": {
+                    "shade": [
+                      "Rich"
+                    ]
+                  },
+                  "Celebration Foundation Illumination": {
+                    "shade": [
+                      "Fair"
+                    ]
+                  },
+                  "Celebration Foundation SPF 50+": {
+                    "shade": [
+                      "Light"
+                    ]
+                  },
+                  "Your Skin But Better CC Cream with SPF 50+": {
+                    "shade": [
+                      "Deep",
+                      "Medium",
+                      "Medium Tan",
+                      "Rich"
+                    ]
+                  },
+                  "Your Skin But Better CC+ Illumination with SPF 50+": {
+                    "shade": [
+                      "Fair",
+                      "Medium",
+                      "Medium Tan"
+                    ]
+                  },
+                  "Your Skin But Better CC+ Veil SPF 50+": {
+                    "shade": [
+                      "Light",
+                      "Medium",
+                      "Medium Tan"
+                    ]
+                  }
+                }
+              },
+              "Kat Von D": {
+                "foundation": {
+                  "Lock-It Foundation": {
+                    "shade": [
+                      "41 Light - Neutral Undertone",
+                      "43 Light - Warm Undertone",
+                      "44 Light - Cool Undertone",
+                      "45 Light - Warm Undertone",
+                      "54 Medium - Cool Undertone",
+                      "57 Medium - Warm Undertone",
+                      "59 Medium - Neutral Undertone",
+                      "62 Medium - Warm Undertone",
+                      "64 Medium - Neutral Undertone",
+                      "65 Medium - Warm Undertone",
+                      "67 Deep - Cool Undertone",
+                      "68 Deep - Cool Undertone",
+                      "70 Deep",
+                      "71 Deep - Warm Undertone",
+                      "74 Deep - Warm Undertone",
+                      "76 Deep - Warm Undertone",
+                      "78 Deep - Neutral Undertone"
+                    ]
+                  }
+                }
+              },
+              "Kevyn Aucoin": {
+                "foundation": {
+                  "The Etherealist Skin Illuminating Foundation": {
+                    "shade": [
+                      "Deep EF12- Deep with neutral undertones",
+                      "Deep EF13 - Deep with warm undertones",
+                      "Deep EF15 - Deep with neutral undertones",
+                      "Light EF01- Light with subtle pink undertones",
+                      "Light EF02 - Light with yellow undertones",
+                      "Light EF03 - Light with neutral beige undertones",
+                      "Light EF04- Light with yellow undertones",
+                      "Light EF05 - Light with golden undertones",
+                      "Medium EF07 - Medium with neutral undertones",
+                      "Medium EF08 - Medium with yellow undertones",
+                      "Medium EF09 - Medium with golden undertones"
+                    ]
+                  }
+                }
+              },
+              "Kiko Cosmetics": {
+                "foundation": {
+                  "3D Lifting Foundation SPF 15": {
+                    "shade": [
+                      "02 Light Almond"
+                    ]
+                  },
+                  "BB Glow Compact Foundation": {
+                    "shade": [
+                      "12"
+                    ]
+                  },
+                  "Mat Mousse Foundation": {
+                    "shade": [
+                      "13 Mahogany"
+                    ]
+                  },
+                  "Soft Focus Compact Wet & Dry Mineral Foundation": {
+                    "shade": [
+                      "11 Caramel"
+                    ]
+                  },
+                  "Universal Fit Hydrating Foundation": {
+                    "shade": [
+                      "Neutral 100"
+                    ]
+                  },
+                  "Unlimited Foundation SPF 15 Long-lasting Fluid Foundation": {
+                    "shade": [
+                      "Neutral 160",
+                      "Warm Beige - 165 New",
+                      "Warm Beige 15",
+                      "Warm Rose - 01 New"
+                    ]
+                  }
+                }
+              },
+              "L.A. Girl": {
+                "foundation": {
+                  "HD Pro BB Cream": {
+                    "shade": [
+                      "GBB942 Light",
+                      "GBB944 Neutral",
+                      "GBB945 Medium",
+                      "GBB946 Medium Deep",
+                      "GBB947 Deep",
+                      "GBB948 Dark"
+                    ]
+                  },
+                  "HD Pro Coverage Illuminating Foundation": {
+                    "shade": [
+                      "GLM642 Fair",
+                      "GLM647 Warm Beige",
+                      "GLM648 Soft Honey",
+                      "GLM649 Tan",
+                      "GLM651 Bronze",
+                      "GLM652 Warm Caramel",
+                      "GLM653 Toast",
+                      "GLM654 Coffee"
+                    ]
+                  },
+                  "HD Pro Matte Foundation": {
+                    "shade": [
+                      "GLM673 Beige"
+                    ]
+                  }
+                }
+              },
+              "La-Mer": {
+                "foundation": {
+                  "The Soft Fluid Long Wear Foundation SPF 20": {
+                    "shade": [
+                      "Beige",
+                      "Linen"
+                    ]
+                  },
+                  "The Soft Fluid Longwear Foundation": {
+                    "shade": [
+                      "Ivory",
+                      "Linen",
+                      "Natural",
+                      "Porcelain",
+                      "Shell"
+                    ]
+                  },
+                  "The Treatment Fluid Foundation SPF 15": {
+                    "shade": [
+                      "Sand"
+                    ]
+                  }
+                }
+              },
+              "Lancome": {
+                "foundation": {
+                  "Absolue Replenishing Cream Foundation": {
+                    "shade": [
+                      "Absolute Almond 10 (C)",
+                      "Absolute Ecru 05 (C)"
+                    ]
+                  },
+                  "Bienfait Teinte BB Cream": {
+                    "shade": [
+                      "3 Naturel"
+                    ]
+                  },
+                  "Blanc Expert Brightening Compact Foundation": {
+                    "shade": [
+                      "BO-02",
+                      "O-02"
+                    ]
+                  },
+                  "Blanc Expert High Coverage Cushion Foundation": {
+                    "shade": [
+                      "P-02"
+                    ]
+                  },
+                  "Mat Miracle 24H Fluid Foundation": {
+                    "shade": [
+                      "O 03"
+                    ]
+                  },
+                  "Miracle Air De Teint - Foundation": {
+                    "shade": [
+                      "045 Sable Beige"
+                    ]
+                  },
+                  "Renergie Lift Anti-Wrinkle Lifting Foundation SPF 20": {
+                    "shade": [
+                      "250 Bisque W",
+                      "330 Bisque N",
+                      "410 Bisque W",
+                      "420 Bisque N",
+                      "Lifting Porcelaine 20 C"
+                    ]
+                  },
+                  "Skin Feels Good Hydrating Skin Tint": {
+                    "shade": [
+                      "02C Natural Blond"
+                    ]
+                  },
+                  "Teint Idole Ultra Longwear Cushion Foundation SPF 50": {
+                    "shade": [
+                      "01 Pure Porcelain",
+                      "025 Beige Naturel",
+                      "03 Beige Peche",
+                      "090 Ivoire (N)",
+                      "140 Ivoire (N)",
+                      "210 Buff (N)",
+                      "220 Buff ( C )",
+                      "250 Bisque (W)",
+                      "280 Bisque (W)",
+                      "460 Suede (W)",
+                      "500 Suede (W)"
+                    ]
+                  },
+                  "Teint Idole Ultra Wear Foundation": {
+                    "shade": [
+                      "005 Beige Ivoire (UK)",
+                      "008 Beige Opale (UK) \/ 090 Ivoire 9 (USA)",
+                      "01 Beige Albatre (UK) \/ 100 Ivoire N (USA)",
+                      "010 Beige Porcelaine (UK) \/ 110 Ivoire C (USA)",
+                      "011 Beige Cristallin (UK) \/ 140 Ivoire N (USA)",
+                      "023 Beige Aurore (UK) \/ 215 Buff N (USA)",
+                      "024 Beige Vanille (UK)",
+                      "025 Beige Lin (UK) \/ 250 Bisque W (USA)",
+                      "03 Beige Diaphane (UK) \/ 260 Bisque N (USA)",
+                      "032 Beige Cendre (UK) \/ 310 Bisque C (USA)",
+                      "035 Beige Dore (UK) \/ 320 Bisque W (USA)",
+                      "038 Beige Cuivre (UK) \/ 330 Bisque N (USA)",
+                      "04 Beige Nature (UK) \/ 350 Bisque C (USA)",
+                      "045 Sable Beige (UK)",
+                      "048 Beige Chataigne (UK) \/ 360 Bisque N (USA)",
+                      "049 Beige Peche (UK) \/ 370 Bisque W (USA)",
+                      "05 Beige Noisette (UK)",
+                      "050 Beige Ambre (UK) \/ 410 Bisque W (USA)",
+                      "051 Chataigne (UK) \/ 420 Bisque N (USA)",
+                      "055 Beige Ideal (UK)",
+                      "06 Beige Cannelle (UK) \/ 430 Bisque C (USA)",
+                      "07 Sable (UK) \/ 435 Bisque W (USA)",
+                      "08 Caramel (UK) \/ 450 Suede N (USA)",
+                      "09 Cookie (UK) \/ 460 Suede W (USA)",
+                      "10 Beige Praline (UK)",
+                      "10.1 Acajou (UK) \/ 465 Suede C (USA)",
+                      "10.2 Bronze (UK) \/ 470 Suede C (USA)",
+                      "11 Muscade (UK) \/ 500 Suede W (USA)",
+                      "12 Ambre (UK) \/ 510 Suede C (USA)",
+                      "13 Sienne (UK)",
+                      "13.1 Cacao (UK) \/ 520 Suede W (USA)",
+                      "13.2 Brun (UK) \/ 530 Suede C (USA)",
+                      "13.3 Santal (UK) \/ 540 Suede W (USA)",
+                      "14 Brownie (UK)",
+                      "15 Moka (UK) \/ 550 Suede C (USA)",
+                      "16 Cafe (UK) \/ 555 Suede C (USA)",
+                      "210 Buff N (USA)",
+                      "220 Buff C (USA)",
+                      "230 Buff W (USA)",
+                      "270 Bisque W (USA)",
+                      "280 Bisque W  (USA)",
+                      "340 Bisque N (USA)",
+                      "380 Bisque W (USA)",
+                      "415 Bisque W (USA)",
+                      "425 Bisque W (USA)"
+                    ]
+                  },
+                  "Teint Miracle Bare Skin Foundation Luminous Satiny Finish Creator SPF 15": {
+                    "shade": [
+                      "007 Beige Rose",
+                      "045 Sable Beige",
+                      "05 Beige Noisette",
+                      "055 Beige Ideal",
+                      "06 Beige Canelle",
+                      "11 Muscade",
+                      "12 Ambre",
+                      "13 Sienne",
+                      "O-01",
+                      "P-01",
+                      "P-02",
+                      "Suede 1N",
+                      "Suede 2W",
+                      "Suede 460W",
+                      "Suede 470C",
+                      "Suede 520W"
+                    ]
+                  },
+                  "Teint Miracle Hydrating Foundation Natural Healthy Look SPF 25\/PA+++": {
+                    "shade": [
+                      "BO-01",
+                      "O-01",
+                      "PO-01"
+                    ]
+                  },
+                  "Teint Visionnaire Skin Perfecting Makeup Duo": {
+                    "shade": [
+                      "05 Beige Noisette",
+                      "06 Beige Cannelle",
+                      "14 Brownie",
+                      "320 Bisque (W)",
+                      "500 Suede (W)"
+                    ]
+                  }
+                }
+              },
+              "Laura Mercier": {
+                "foundation": {
+                  "Candleglow Soft Luminous Foundation": {
+                    "shade": [
+                      "1C1 Shell - Fair with Cool Undertones",
+                      "1N1 Creme - Fair with Cool to Neutral Undertones",
+                      "1W1 Ivory - Fair with Neutral to Warm Undertones",
+                      "2C1 Ecru - Light with Cool Undertones",
+                      "2N1 Cashew - Light with Cool to Neutral Undertones",
+                      "2N2 Linen - Light with Neutral Undertones",
+                      "2W1 Macadamia - Light with Neutral to Warm Undertones",
+                      "2W2 Butterscotch - Light with Warm Undertones",
+                      "3N2 Honey - Light to Medium with Neutral Undertones",
+                      "3W1 Dusk - Light to Medium with Neutral to Warm Undertones",
+                      "3W2 Golden - Light to Medium with Warm Undertones",
+                      "4W1 Maple - Medium with Neutral to Warm Undertones",
+                      "4W2 Chai - Medium with Warm Undertones",
+                      "5C1 Nutmeg - Medium to Deep with Cool Undertones",
+                      "5N1 Pecan - Medium to Deep with Cool to Neutral Undertones",
+                      "5W1 Amber - Medium to Deep with Warm Undertones",
+                      "Praline"
+                    ]
+                  },
+                  "Flawless Fusion Ultra Longwear Foundation": {
+                    "shade": [
+                      "1C1 Shell - Fair with Cool undertones",
+                      "1N1 Creme - Fair with Neutral undertones",
+                      "1N2 Vanille - Fair to Light with Neutral undertones",
+                      "1W1 Ivory - Fair with Warm undertones",
+                      "2C1 Ecru - Light with Cool undertones",
+                      "2N1 Cashew - Light with Neutral undertones",
+                      "2N1.5 Beige - Light with Neutral undertones",
+                      "2N2 Linen - Light with Neutral undertones",
+                      "2W1 Macadamia - Light with Warm undertones",
+                      "2W1.5 Bisque - Light with Warm undertones",
+                      "2W2 Butterscotch - Light with Warm undertones",
+                      "3C1 Dune - Medium with Cool undertones",
+                      "3N1 Buff - Medium with Neutral undertones",
+                      "3N1.5 Latte - Light-Medium with Neutral undertones",
+                      "3N2 Honey - Medium with Neutral undertones",
+                      "3W1 Dusk - Medium with Warm undertones",
+                      "3W2 Golden - Medium with Warm undertones",
+                      "4N1 Suntan - Tan with Neutral undertones",
+                      "4W1 Maple - Tan with Warm undertones",
+                      "4W2 Chai - Tan with Warm undertones",
+                      "5C1 Nutmeg - Medium Deep with Cool undertones",
+                      "5N1 Pecan - Medium Deep with Neutral undertones",
+                      "6N1 Truffle - Deep with Neutral undertones"
+                    ]
+                  },
+                  "Secret Camouflage": {
+                    "shade": [
+                      "SC-2 - Fair to light skin tones",
+                      "SC-3 - Medium with yellow or pink skin tones"
+                    ]
+                  },
+                  "Silk Creme Moisturizing Photo Edition Foundation": {
+                    "shade": [
+                      "2C1 Ecru",
+                      "2N1 Bamboo Beige",
+                      "3N2 Cashew Beige",
+                      "5N1 Pecan"
+                    ]
+                  },
+                  "Silk Creme Oil Free Photo Edition Foundation": {
+                    "shade": [
+                      "1C1 Rose Ivory",
+                      "1W1 Ivory",
+                      "2C1 Ecru",
+                      "4N1 Suntan",
+                      "5N1 Pecan"
+                    ]
+                  },
+                  "Tinted Moisturizer - Illuminating": {
+                    "shade": [
+                      "5N1 Bronze Radiance - deep with neutral undertones"
+                    ]
+                  },
+                  "Tinted Moisturizer - Oil Free SPF20": {
+                    "shade": [
+                      "4W1 Tawny"
+                    ]
+                  },
+                  "Tinted Moisturizer SPF20": {
+                    "shade": [
+                      "2C1 Blush",
+                      "4W1 Tawny",
+                      "5C1 Caramel",
+                      "6C1 Walnut"
+                    ]
+                  }
+                }
+              },
+              "Lorac": {
+                "foundation": {
+                  "Breakthrough Performance Foundation": {
+                    "shade": [
+                      "SMS 3 - Medium (yellow undertone)"
+                    ]
+                  },
+                  "POREfection Foundation": {
+                    "shade": [
+                      "PR1 Fair",
+                      "PR4 Light Medium",
+                      "PR6 Medium Beige"
+                    ]
+                  },
+                  "Sheer POREfection Foundation": {
+                    "shade": [
+                      "PS2 Light"
+                    ]
+                  }
+                }
+              },
+              "Loreal Paris": {
+                "foundation": {
+                  "Age Perfect Anti Ageing Radiant Foundation": {
+                    "shade": [
+                      "130 Golden Ivory",
+                      "250 Warm Beige"
+                    ]
+                  },
+                  "Infallible 24H Matte Foundation": {
+                    "shade": [
+                      "22 Beige Eclat \/ Radiant Beige",
+                      "23 Radiant Honey",
+                      "32 Ambre \/ Amber",
+                      "33 Cappuccino",
+                      "34 Mahogany"
+                    ]
+                  },
+                  "Infallible 24H Stay Fresh Foundation": {
+                    "shade": [
+                      "115 Nude Beige",
+                      "145 Rose Beige",
+                      "235 Honey",
+                      "260 Golden Sun",
+                      "300 Amber"
+                    ]
+                  },
+                  "Infallible Pro-Glow Foundation": {
+                    "shade": [
+                      "201 Classic Ivory",
+                      "202 Creamy Natural",
+                      "203 Nude Beige",
+                      "204 Natural Buff",
+                      "207 Sand Beige",
+                      "208 Sun Beige",
+                      "209 Caramel Beige",
+                      "210 Classic Tan",
+                      "211 Creme Cafe",
+                      "212 Cocoa"
+                    ]
+                  },
+                  "Infallible Pro-Matte Foundation": {
+                    "shade": [
+                      "11 Vanilla",
+                      "22 Radiant Beige"
+                    ]
+                  },
+                  "Infallible Total Cover Full Coverage Weightless Feel Foundation": {
+                    "shade": [
+                      "012 Natural Rose",
+                      "302 Creamy Natural",
+                      "304 Natural Buff",
+                      "305 Natural Beige",
+                      "307 Sand Beige",
+                      "310 Classic Tan",
+                      "312 Cocoa"
+                    ]
+                  },
+                  "Lucent Magique Light-Infusing Foundation": {
+                    "shade": [
+                      "G7 Golden Bronze"
+                    ]
+                  },
+                  "Lucent Magique Porcelain Cushion": {
+                    "shade": [
+                      "N4 Beige Miracle"
+                    ]
+                  },
+                  "Lumi Magique Foundation": {
+                    "shade": [
+                      "C6 Soft Sable"
+                    ]
+                  },
+                  "Perfect Match Foundation": {
+                    "shade": [
+                      "11N Dark Coffee",
+                      "3C Rose Beige",
+                      "3W Golden Beige",
+                      "4W Golden Naturel",
+                      "5N Sand",
+                      "5W Golden Sand",
+                      "6N Honey",
+                      "7C Rose Amber",
+                      "7W Golden Amber",
+                      "8C Nut Brown",
+                      "8W Golden Cappuccino"
+                    ]
+                  },
+                  "True Match Lumi Cushion Foundation": {
+                    "shade": [
+                      "C3 Creamy Natural",
+                      "C8 Cocoa",
+                      "N1 Soft Ivory",
+                      "N2 Classic Ivory",
+                      "N3 Natural Buff",
+                      "N3.5 Classic Buff",
+                      "W3 Nude Beige",
+                      "W5.5 Suntan"
+                    ]
+                  },
+                  "True Match Lumi Healthy Luminous Makeup": {
+                    "shade": [
+                      "C3 Creamy Natural",
+                      "C6 Soft Sable",
+                      "C7-8 Nut Brown \/ Cocoa",
+                      "N3 Natural Buff",
+                      "N4 Beige Buff \/ Buff Beige",
+                      "W5 Sand Beige"
+                    ]
+                  },
+                  "True Match Super Blendable Compact Makeup": {
+                    "shade": [
+                      "Classic Tan - N7"
+                    ]
+                  },
+                  "True Match Super Blendable Makeup": {
+                    "shade": [
+                      "W10 Deep Golden (Warm)"
+                    ]
+                  },
+                  "Visible Lift Blur Foundation": {
+                    "shade": [
+                      "208 Buff beige"
+                    ]
+                  },
+                  "Visible Lift Serum Absolute Advanced Age-Reversing Makeup": {
+                    "shade": [
+                      "148 Natural Buff"
+                    ]
+                  }
+                }
+              },
+              "MAC": {
+                "foundation": {
+                  "Full Coverage Foundation": {
+                    "shade": [
+                      "NC43"
+                    ]
+                  },
+                  "Lightful C Marine-Bright Formula Foundation SPF 25\/PA+++": {
+                    "shade": [
+                      "NC25",
+                      "NC45"
+                    ]
+                  },
+                  "Lightful C SPF 50\/PA++++ Quick Finish Compact": {
+                    "shade": [
+                      "Extra Light",
+                      "Medium"
+                    ]
+                  },
+                  "Lightful C Tinted Cream SPF 30 With Radiance Booster": {
+                    "shade": [
+                      "06 Medium Dark \/ Deep - Caramel Beige",
+                      "08 Dark Plus - Neutral Tan Beige"
+                    ]
+                  },
+                  "Matchmaster Shade Intelligence Compact Foundation": {
+                    "shade": [
+                      "7.5"
+                    ]
+                  },
+                  "Matchmaster SPF15 Foundation": {
+                    "shade": [
+                      "3",
+                      "6.5",
+                      "7",
+                      "9"
+                    ]
+                  },
+                  "Mineralize Moisture SPF15 Foundation": {
+                    "shade": [
+                      "NW15",
+                      "NW22",
+                      "NW43"
+                    ]
+                  },
+                  "Prep + Prime BB Beauty Balm Compact Foundation SPF 30": {
+                    "shade": [
+                      "Dark Plus - Neutral Beige",
+                      "Light Plus - Light Beige"
+                    ]
+                  },
+                  "Prep + Prime BB Beauty Balm SPF35": {
+                    "shade": [
+                      "Dark - Dark Caramel",
+                      "Dark Deep - Intense Golden Bronze",
+                      "Light Plus - Light Beige",
+                      "Medium - Warm Beige",
+                      "Medium Dark - Caramel Beige"
+                    ]
+                  },
+                  "Pro Longwear Nourishing Waterproof Foundation": {
+                    "shade": [
+                      "N18 - Light Neutral with Peachy undertone for Light skin",
+                      "NC15 - Fair Beige with Neutral undertone for Light skin",
+                      "NC20 - Peachy Beige with Golden undertone for Light skin",
+                      "NC25 - Light Golden with Golden undertone for Light to Medium skin",
+                      "NC30 - Golden Beige with Golden undertone for Light to Medium skin",
+                      "NC35 - Medium Beige with Peachy Golden undertones for Medium skin",
+                      "NC37 - Ggolden Olive with Golden undertone for Medium skin",
+                      "NC40 - Light Golden with Golden undertone for Light to Medium skin",
+                      "NC42 - Tanned Peach with Golden undertone for Medium to Dark skin",
+                      "NC44 - Medium Tan with Golden undertone for Medium to Dark skin",
+                      "NC45 - Golden Bronze with Neutral undertone for Medium to Dark skin",
+                      "NC47 - Neutral Bronze with Golden undertone for Medium to Dark skin",
+                      "NC50 - Rich Brown with Golden undertone for Dark skin",
+                      "NW13 - Fair Beige with Rosy undertone for Fair skin",
+                      "NW15 - Very Fair Neutral with Rosy undertone for Fair skin",
+                      "NW20 - Rosy Peach with Rosy undertone for Light to Medium skin",
+                      "NW35 - Medium Beige with Neutral Rosy undertone for Medium skin",
+                      "NW45 - Deep Auburn with Neutral undertones for Dark skin",
+                      "NW50 - Rich Espresso with Neutral undertones for Dark skin"
+                    ]
+                  },
+                  "Pro Longwear SPF 20 Compact Foundation": {
+                    "shade": [
+                      "NC20",
+                      "NC30",
+                      "NC40",
+                      "NC50"
+                    ]
+                  },
+                  "Select Cover Up Foundation": {
+                    "shade": [
+                      "NC37",
+                      "NW45"
+                    ]
+                  },
+                  "Select Moisturecover": {
+                    "shade": [
+                      "NC15",
+                      "NC20"
+                    ]
+                  },
+                  "Select SPF 15": {
+                    "shade": [
+                      "NC45",
+                      "NW47"
+                    ]
+                  },
+                  "Studio Face and Body Foundation": {
+                    "shade": [
+                      "C9"
+                    ]
+                  },
+                  "Studio Fix Fluid Foundation with Skin Balance Complex SPF 15 \/ PA++": {
+                    "shade": [
+                      "N18",
+                      "NC15",
+                      "NC20",
+                      "NC25",
+                      "NC30",
+                      "NC35",
+                      "NC37",
+                      "NC40",
+                      "NC42"
+                    ]
+                  },
+                  "Studio Fix Fluid SPF 15": {
+                    "shade": [
+                      "C3.5 - Light to Medium shade with a Peach-like undertone; for Light to Medium skin",
+                      "C4 - Bright, Neutral shade with a Golden, Peach-like undertone; for Fair skin",
+                      "C4.5 - Tanned, Neutral shade with Peach-like undertone for Mmedium skin",
+                      "C5 - Deep, Neutral Peach nuance with a Golden undertone; for Dark skin",
+                      "C8 - Deep Olive with a Golden undertone; for very Dark skin",
+                      "N18",
+                      "N5 - True Beige with a Rosy undertone; for Fair skin",
+                      "NC 47",
+                      "NC 55",
+                      "NC10 - Very Bright with a Golden undertone; for Very Light skin",
+                      "NC24",
+                      "NC37 - Medium nuance with Peach-like undertone; for Medium skin",
+                      "NC38",
+                      "NC40 - Medium shade with Golden, Peach-like undertone; for Medium skin",
+                      "NC41",
+                      "NC42 - Medium shade with a Golden undertone; for Medium skin",
+                      "NC43.5",
+                      "NC44 - Tanned Caramel with a Golden undertone; for Medium to Dark skin",
+                      "NC44.5",
+                      "NC46 - Deep Bronze shade with a Neutral undertone; for Dark skin",
+                      "NC47 - Deep, Neutral nuance with a Golden undertone; for very Dark skin",
+                      "NC50 - Intense Brown with a Golden undertone; for very Dark skin",
+                      "NC55 - Deep, intense Brown with a Golden undertone; for very Dark skin",
+                      "NW13 - Light Beige with a Neutral undertone; for Fair skin",
+                      "NW30 - Medium Beige with a Rosy undertone; for Medium skin",
+                      "NW33 - Medium, Warm Beige with a Rosy undertone; for Medium skin",
+                      "NW35 - Tawny Beige with a Neutral undertone; for Medium skin",
+                      "NW40 - Tanned Beige with a Rosy undertone; for Medium to Dark skin",
+                      "NW44 - Intense Tan with a Neutral undertone; for Medium to dark skin",
+                      "NW45 - Medium Mahogany with a Rosy undertone; for Medium to Dark skin",
+                      "NW46 - Deep Maroon with Red undertone; for Dark skin",
+                      "NW47 - Deep Maroon with a Neutral undertone; for Dark skin",
+                      "NW48 - Deep Maroon with a Golden undertone; for Dark skin",
+                      "NW50 - Intensive Coffee Brown with a Neutral undertone; for very Dark skin",
+                      "NW55 - Intense Mahogany with a Red undertone; for very Dark skin",
+                      "NW58 - Intensive Espresso Brown with Neutral undertone; for very Dark skin"
+                    ]
+                  },
+                  "Studio Sculpt SPF15 Foundation": {
+                    "shade": [
+                      "NW47",
+                      "NW50"
+                    ]
+                  },
+                  "Studio Tech Foundation": {
+                    "shade": [
+                      "NW40",
+                      "NW43"
+                    ]
+                  },
+                  "Studio Waterweight Foundation SPF30": {
+                    "shade": [
+                      "N18",
+                      "NC15 - Light with Golden undertone for Light skin",
+                      "NC25 - Light with Golden Peach undertone for Light skin",
+                      "NC35 - Medium with Golden undertone for Medium skin",
+                      "NC37 - Medium with Neutral Peach undertone for Medium skin",
+                      "NC40 - Medium with Neutral Golden undertone for Medium skin",
+                      "NC42 - True Medium with Golden undertone for Medium skin",
+                      "NC44 - Medium Tan with Neutral undertone for Medium to Dark skin",
+                      "NC45 - Deep Bronzed with Golden undertone for Medium to Dark skin",
+                      "NW13 - Fair Beige with Light Rosy undertone for Light skin",
+                      "NW15 - Light Beige with Neutral undertone for Light skin",
+                      "NW18 - Beige with Golden Rose undertone for Light skin",
+                      "NW20 - Neutral Beige with Neutral undertone for Light to Medium skin",
+                      "NW47 - Deep Beige with Neutral undertones for Dark skin"
+                    ]
+                  }
+                }
+              },
+              "Make Up For Ever": {
+                "foundation": {
+                  "Full Cover Extreme Camouflage Cream": {
+                    "shade": [
+                      "12 Dark Beige",
+                      "6 Ivory",
+                      "7 Sand"
+                    ]
+                  },
+                  "HD Foundation Invisible Cover Foundation": {
+                    "shade": [
+                      "110 Pink Porcelain",
+                      "117 Marble",
+                      "118 Flesh",
+                      "120 Soft Sand",
+                      "123 Desert",
+                      "125 Sand",
+                      "127 Dark Sand",
+                      "128 Almond",
+                      "135 Vanilla",
+                      "140 Soft Beige",
+                      "145 Neutral",
+                      "153 Golden Honey",
+                      "155 Medium Beige",
+                      "160 Golden Beige",
+                      "170 Caramel",
+                      "173 Amber",
+                      "177 Cognac",
+                      "178 Chestnut"
+                    ]
+                  },
+                  "Light Velvet Cushion SPF 50+\/PA+++": {
+                    "shade": [
+                      "Y245 Soft Sand"
+                    ]
+                  },
+                  "Mat Velvet + Matifying Foundation": {
+                    "shade": [
+                      "15 Alabaster",
+                      "20 Ivory",
+                      "25 Warm Ivory",
+                      "40 Natural Beige",
+                      "51 Golden Camel",
+                      "57 Pecan",
+                      "67 Warm Amber",
+                      "70 Caramel",
+                      "75 Coffee",
+                      "77 Golden Chestnut",
+                      "80 Cognac",
+                      "85 Brown"
+                    ]
+                  },
+                  "Ultra HD Invisible Cover Foundation": {
+                    "shade": [
+                      "110 = R220 Pink Porcelain",
+                      "115 = R230 Ivory",
+                      "120 = Y245 Soft Sand",
+                      "123 = Y365 Desert",
+                      "125 = Y315 Sand",
+                      "128 = Y415 Almond",
+                      "130 = R330 Warm Ivory",
+                      "135 = R300 Vanilla",
+                      "140 = Y305 Soft Beige",
+                      "145 = R360 Neutral",
+                      "153 = Y405 Golden Honey",
+                      "155 = R370 Medium Beige",
+                      "160 = R410 Golden Beige",
+                      "170 = Y435 Caramel",
+                      "173 = Y445 Amber",
+                      "175 = R510 Coffee",
+                      "177 = Y505 Cognac",
+                      "178 = Y535 Chestnut",
+                      "180 = R530 Brown",
+                      "R210 Pink Alabaster",
+                      "R250 Beige Nude",
+                      "R260 Pink Beige",
+                      "R430 Hazelnut",
+                      "R520 Cinnamon",
+                      "R540 Dark Brown",
+                      "Y205 Alabaster",
+                      "Y215 Yellow Alabaster",
+                      "Y235 Ivory Beige",
+                      "Y255 Sand Beige",
+                      "Y345 Natural Beige",
+                      "Y355 Neutral Beige",
+                      "Y375 Golden Sand",
+                      "Y385 Olive Beige",
+                      "Y425 Honey",
+                      "Y455 Praline"
+                    ]
+                  },
+                  "Ultra HD Perfector Blurring Skin Tint": {
+                    "shade": [
+                      "10 Golden Honey",
+                      "11 Warm Amber",
+                      "3 Golden Vanilla",
+                      "4 Golden Sand",
+                      "8 Golden Peach"
+                    ]
+                  },
+                  "UV Bright Cushion SPF35\/PA+++ Intense Moisture Dewy Foundation": {
+                    "shade": [
+                      "Y225 Marble",
+                      "Y245 Soft Sand"
+                    ]
+                  },
+                  "Water Blend Face & Body Foundation": {
+                    "shade": [
+                      "R210 Pink Albaster",
+                      "R540 Dark Brown",
+                      "Y215 Yellow Albaster",
+                      "Y225 Marble",
+                      "Y245 Soft Sand",
+                      "Y305 Soft Beige",
+                      "Y315 Sand",
+                      "Y325 Flesh",
+                      "Y415 Almond",
+                      "Y445 Amber"
+                    ]
+                  }
+                }
+              },
+              "Marc Jacobs Beauty": {
+                "foundation": {
+                  "Marvelous Mousse Transformative Foundation": {
+                    "shade": [
+                      "Bisque Light 22",
+                      "Bisque Medium 26"
+                    ]
+                  },
+                  "Re(Marc)able Full Cover Foundation Concentrate": {
+                    "shade": [
+                      "Beige - 33 - Light Medium w\/ Yellow Undertones",
+                      "Beige Deep - 38 - Medium w\/ Peach Undertones",
+                      "Beige Golden - 36 - Medium w\/ Yellow Undertones",
+                      "Beige Light - 32 - Light Medium w\/ Pink Undertones",
+                      "Beige Medium - 34 - Light Medium w\/ Peach Undertones",
+                      "Bisque Neutral - 27 - Fair w\/ Yellow Undertones",
+                      "Cocoa Light - 82 - Very Deep w\/ Yellow Undertones",
+                      "Cocoa Medium - 84 - Very Deep w\/ Red Undertones",
+                      "Golden Deep - 46 - Medium Deep w\/ Peach Undertones",
+                      "Golden Medium - 44 - Medium deep w\/ Yellow Undertones",
+                      "Honey Deep - 58 - Deep w\/ Peach Undertones",
+                      "Honey Light - 52 - Deep w\/ Yellow Undertones",
+                      "Ivory - 12 - Very Fair w\/ Yellow Undertones"
+                    ]
+                  },
+                  "Shameless Youthful-Look 24H Foundation SPF 25": {
+                    "shade": [
+                      "Deep R550 - Very Deep w\/ Red undertones",
+                      "Deep Y500 - Deep w\/ Warm Golden Yellow undertones",
+                      "Deep Y570 - Very Deep w\/ Warm Yellow undertones",
+                      "Fair R150 - Fair w\/ Pink undertones",
+                      "Fair Y110 - Ultra-Fair w\/ Yellow undertones",
+                      "Fair Y130 - Fair w\/ Yellow undertones",
+                      "Light R230 - Light w\/ Pink undertones",
+                      "Light R250 - Light w\/ Soft Beige undertones",
+                      "Light Y210 - Light w\/ Yellow undertones",
+                      "Light Y270 - Light w\/ Golden undertones",
+                      "Medium R300 - Light Medium w\/ Toasted Beige undertones",
+                      "Medium R330 - Medium w\/ Pink Beige undertones",
+                      "Medium R350 - Medium w\/ Peach undertones",
+                      "Medium Y320 - Light Medium w\/ Yellow undertones",
+                      "Medium Y340 - Medium w\/ Yellow undertones",
+                      "Medium Y360 - Medium w\/ Golden undertones",
+                      "Medium Y370 - Medium w\/ Yellow Beige undertones",
+                      "Medium Y390 - Medium w\/ Golden undertones",
+                      "Tan Y400 - Medium Tan w\/ Beige Yellow undertones",
+                      "Tan Y420 - Med Tan w\/ Yellow undertones",
+                      "Tan Y470 - Tan w\/ Caramel undertones",
+                      "Tan Y480 - Tan w\/ Golden Yellow undertones"
+                    ]
+                  }
+                }
+              },
+              "Mary Kay": {
+                "foundation": {
+                  "CC Cream Sunscreen Broad Spectrum SPF 15": {
+                    "shade": [
+                      "Deep (Natural)"
+                    ]
+                  },
+                  "Full-Coverage Foundation": {
+                    "shade": [
+                      "Bronze 504",
+                      "Bronze 507",
+                      "Ivory 200"
+                    ]
+                  },
+                  "Medium-Coverage Foundation": {
+                    "shade": [
+                      "Bronze 500 (Natural)",
+                      "Bronze 507 (Natural)",
+                      "Bronze 600 (Natural)",
+                      "Bronze 607 (Natural)"
+                    ]
+                  }
+                }
+              },
+              "Max Factor": {
+                "foundation": {
+                  "Face Finity All Day Flawless 3 in 1 Foundation": {
+                    "shade": [
+                      "47 Nude",
+                      "90 Toffee"
+                    ]
+                  },
+                  "Miracle match Blur & Nourish Shade-Matching Foundation": {
+                    "shade": [
+                      "50 Natural"
+                    ]
+                  },
+                  "Skin Luminizer Miracle Foundation": {
+                    "shade": [
+                      "55 Beige"
+                    ]
+                  }
+                }
+              },
+              "Maybelline": {
+                "foundation": {
+                  "Dream BB Bronze 8-IN-1 Sunkissed Glow Perfector SPF 25": {
+                    "shade": [
+                      "Medium \/ Deep"
+                    ]
+                  },
+                  "Dream Fresh BB 8-in-1 BB Cream Skin Perfector - Aloe Extract": {
+                    "shade": [
+                      "Light"
+                    ]
+                  },
+                  "Dream Fresh BB 8-in-1 BB Cream Skin Perfector - Pomegranate Extract": {
+                    "shade": [
+                      "Light",
+                      "Medium",
+                      "Medium\/Deep"
+                    ]
+                  },
+                  "Dream Fresh BB 8-in-1 BB Cream Skin Perfector - Soy Extract": {
+                    "shade": [
+                      "Light"
+                    ]
+                  },
+                  "Dream Matte  Mousse Foundation SPF 15": {
+                    "shade": [
+                      "Caramel 120",
+                      "Classic Ivory 20",
+                      "Cocoa 130",
+                      "Cocoa 70",
+                      "Fawn 40",
+                      "Natural Beige 75",
+                      "Sand 30"
+                    ]
+                  },
+                  "Dream Matte Air-Soft Velvet Mousse Foundation": {
+                    "shade": [
+                      "Natural Beige",
+                      "Sun Bronze"
+                    ]
+                  },
+                  "Dream Matte Foam Foundation FPS 18": {
+                    "shade": [
+                      "Bright Beige 20",
+                      "Caramel 60"
+                    ]
+                  },
+                  "Dream Pure 8-in-1 BB Cream - For Oily Skin": {
+                    "shade": [
+                      "Medium"
+                    ]
+                  },
+                  "Dream Pure BB Cream 8-In-1 Skin Perfector - Acne Treatment": {
+                    "shade": [
+                      "Deep"
+                    ]
+                  },
+                  "Dream Velvet Soft-Matte Hydrating Foundation": {
+                    "shade": [
+                      "Caramel 92",
+                      "Classic Ivory 20",
+                      "Natural Beige 75",
+                      "Nude 40"
+                    ]
+                  },
+                  "Fit Me Dewy + Smooth Foundation": {
+                    "shade": [
+                      "Buff Beige 130",
+                      "Cappuccino 340",
+                      "Coconut 355",
+                      "Golden Beige 240",
+                      "Ivory 115",
+                      "Natural Beige 220",
+                      "Natural Buff 230",
+                      "Sandy Beige 210",
+                      "Soft Honey 315",
+                      "Sun Beige 310",
+                      "Toffee 330"
+                    ]
+                  },
+                  "Fit Me Luminous + Smooth Foundation": {
+                    "shade": [
+                      "Ivory 115",
+                      "Medium Beige 225",
+                      "Natural Beige 220",
+                      "Natural Ivory 105",
+                      "Nude Beiege 125",
+                      "Porcelain 110",
+                      "Soft Honey 315",
+                      "Sun Beige 250"
+                    ]
+                  },
+                  "Fit Me Matte + Poreless Foundation": {
+                    "shade": [
+                      "Cappuccino 340",
+                      "Classic Tan 335",
+                      "Coconut 355",
+                      "Creamy Beige 122",
+                      "Deep Bronze 370",
+                      "Deep Golden 368",
+                      "Fair Porcelain 102",
+                      "Golden 312",
+                      "Golden Caramel 332",
+                      "Java 375",
+                      "Latte 358",
+                      "Light Beige 118",
+                      "Mocha 360",
+                      "Natural Ivory 112",
+                      "Natural Tan 320",
+                      "Nutmeg 365",
+                      "Pure Beige 235",
+                      "Rich Tan 238",
+                      "Soft Sand 124",
+                      "Soft Tan 228",
+                      "Spicy Brown 338",
+                      "Sun Beige 310",
+                      "Toffee 330",
+                      "True Beige 222",
+                      "Truffle 362",
+                      "Warm Coconut 356",
+                      "Warm Nude 128"
+                    ]
+                  },
+                  "Fit Me Matte + Poreless Make-Up": {
+                    "shade": [
+                      "100 Porcelain \/ Warm Ivory",
+                      "104 Soft Ivory \/ Vanilla Beige",
+                      "120 Classic Beige \/ Classic Ivory",
+                      "128 Warm Nude \/ Natural Beige",
+                      "220 Natural Beige \/ Golden Beige",
+                      "238 Rich Tan",
+                      "320 Natural Tan",
+                      "330 Toffee",
+                      "332 Golden Caramel",
+                      "350 Caramel",
+                      "352 Cocoa",
+                      "360 Mocha",
+                      "365 Espresso"
+                    ]
+                  },
+                  "Super BB Fresh Matte Cushion": {
+                    "shade": [
+                      "Light"
+                    ]
+                  },
+                  "Super Stay Better Skin Foundation": {
+                    "shade": [
+                      "Almond 94",
+                      "Classic Ivory 20",
+                      "Nude Beige 25",
+                      "Sand Beige 45",
+                      "Soft Tan 60",
+                      "Warm Honey 90"
+                    ]
+                  },
+                  "Super Stay Full Coverage Foundation": {
+                    "shade": [
+                      "Buff Beige 130",
+                      "Cappuccino 340",
+                      "Classic Ivory 120",
+                      "Coconut 355",
+                      "Fair Porcelain 102",
+                      "Golden 312",
+                      "Honey 320",
+                      "Ivory 115",
+                      "Light Beige 118",
+                      "Mocha 360",
+                      "Natural Beige 220",
+                      "Natural Ivory 112",
+                      "Porcelain 110",
+                      "Sun Beige 310",
+                      "Toffee 330",
+                      "Truffle 362",
+                      "Warm Coconut 356",
+                      "Warm Nude 128",
+                      "Warm Sun 334"
+                    ]
+                  }
+                }
+              },
+              "Milk Makeup": {
+                "foundation": {
+                  "Sunshine Skin Tint SPF 30": {
+                    "shade": [
+                      "Fair",
+                      "Honey",
+                      "Medium Tan",
+                      "Tan"
+                    ]
+                  }
+                }
+              },
+              "NARS": {
+                "foundation": {
+                  "All Day Luminous Weightless Foundation": {
+                    "shade": [
+                      "Barcelona -  Medium 4 - Medium with Golden, Peachy undertones",
+                      "Benares - Dark 3 - Dark with Golden undertones",
+                      "Cadiz - Medium-Dark 3 - Medium-Dark with Caramel and Red undertones",
+                      "Ceylan - Light 6 - Medium with Yellow undertones",
+                      "Deauville - Light 4 - Light with a Neutral balance of Pink and Yellow undertones",
+                      "Fiji -  Light 5 - Light with Yellow undertones",
+                      "Gobi - Light 3 - Light with Yellow undertones",
+                      "Khartoum - Dark 4 - Dark with Espresso undertones",
+                      "Macao - Medium-Dark 4 - Medium-Dark with Yellow undertones",
+                      "Mont Blanc - Light 2 - Light with Pink undertones",
+                      "New Guinea -  Medium-Dark 5 - Medium- Dark with Red undertones",
+                      "New Orleans - Dark 2- Dark with yellow undertones",
+                      "Punjab - Medium 1 - Medium with Golden, Peachy undertones",
+                      "Santa Fe - Medium 3 - Medium with Olive undertones",
+                      "Siberia - Light 1 - Light with Neutral balance of Pink and Yellow undertones",
+                      "Stromboli - Medium 3 - Medium with Olive undertones",
+                      "Syracuse - Medium-Dark 1 -Medium-Dark with Brown undertones",
+                      "Tahoe - Medium-Dark 2- Medium-Dark with Caramel undertones",
+                      "Trinidad - Dark 1- Dark with Warm Yellow undertones",
+                      "Vallauris - Medium 1.5 - Medium with Pink undertone"
+                    ]
+                  },
+                  "AquaGlow Cushion Compact Foundation SPF23 \/ PA ++": {
+                    "shade": [
+                      "Alaska - Light color with a balance of Pink and Yellow undertones",
+                      "Finland - Light color with a balance of Pink and Yellow undertones",
+                      "Greenland \/ Groenland - Medium Bright color between Neutral Pink and Pitch undertones",
+                      "Namsan - The brightest color of Pink undertones",
+                      "Small \/ Sowol - Light color of Pink undertones",
+                      "St. Moritz - Neutral Yellow Undertones Medium color"
+                    ]
+                  },
+                  "Natural Radiant Longwear Foundation": {
+                    "shade": [
+                      "Aruba - Medium 6 - Neutral for Medium Dark complexions",
+                      "Barcelona - Medium 4 - Medium with Golden Peachy undertones",
+                      "Belem - Medium-Dark With Red And Brown Undertones",
+                      "Cadiz - Medium-Dark With Caramel And Red Undertones",
+                      "Caracas - Medium-Dark With Warm Red And Golden Undertones",
+                      "Deauville - Light 4 - Light with Pink and Yellow undertones",
+                      "Fiji - Light 5 - Light to Medium with Yellow undertones",
+                      "Gobi - Light 3 - Light with Yellow undertones",
+                      "Huahine - Medium-Dark With Peach Undertones",
+                      "Iguacu - Deep With Olive Undertones",
+                      "Macao - Medium-Dark With Yellow Undertones",
+                      "Mali",
+                      "Manaus - Dark With Caramel Undertones",
+                      "Marquises - Medium-Dark To Dark With Yellow Undertones",
+                      "Mont Blanc - Light With Pink Undertones",
+                      "Moorea - Medium-Dark With Golden Olive Undertones",
+                      "Namibia - Deep With Red Undertones",
+                      "New Caledonia - Dark With Golden Olive Undertones",
+                      "Oslo - Light 1 - Fair with Pink undertones",
+                      "Patagonia - Medium 1.2 - Medium with Light Peach undertones",
+                      "Punjab - Medium 1 - Medium with Golden Peachy undertones",
+                      "Sahel - Medium 2.5 - Medium with Golden Peachy undertones",
+                      "Salzburg - Light With Golden Undertones",
+                      "Santa Fe - Medium 2 - Medium with Peach undertones",
+                      "Stromboli - Medium With Olive Undertones",
+                      "Syracuse - Medium-Dark With Brown Undertones",
+                      "Tahoe - Medium-Dark With Caramel Undertones",
+                      "Valencia - Medium 5 - Medium with Golden undertones",
+                      "Vallauris - Medium With Pink Undertones",
+                      "Vanuatu - Medium 3.5 - Medium with Yellow and Pink undertones",
+                      "Vienna - Light 4.5 - Light to Medium with Peach undertones",
+                      "Yukon - Light 2.5  -  Light with Peach undertones",
+                      "Zambie - Deep With Neutral Undertones"
+                    ]
+                  },
+                  "Pure Radiant Tinted Moisturizer Broad Spectrum SPF 30": {
+                    "shade": [
+                      "Alaska - Light with a Neutral balance of Pink and Yellow undertones",
+                      "Annapurna - Medium with a Neutral Peachy undertone",
+                      "Cuba - Medium with a Neutral balance of Pink and Yellow undertones",
+                      "Cuzco - Medium with a Neutral Pink \/ Peachy undertone",
+                      "Groenland - Light Medium with a Neutral Pink \/ Peachy undertone",
+                      "Malaga - Medium Dark with Warm Caramel undertones",
+                      "Martinque - Medium Dark with Warm Red undertones",
+                      "Polynesia - Dark with Warm Chocolate undertones",
+                      "Seychelles - Medium Dark with Golden Olive",
+                      "St.Moritz - Medium with a Neutral Yellow undertone",
+                      "Terre Neuve - Lightest with Neutral Pink undertone"
+                    ]
+                  },
+                  "Radiant Cream Compact Foundation": {
+                    "shade": [
+                      "Deauville - Light 4 - Light with Neutral balance of Pink and Yellow undertone",
+                      "Fiji - Light 5 - Light with Yellow undertones",
+                      "Syracuse - Med\/Dark 1 - Medium-Dark with Brown undertone",
+                      "Tahoe - Med\/Dark 2 - Medium-Dark with Caramel undertone"
+                    ]
+                  },
+                  "Sheer Glow Foundation": {
+                    "shade": [
+                      "Barcelona - Medium 4 - Medium with Golden, Peachy undertone",
+                      "Cadiz - Medium-Dark 3 - Medium-Dark with Caramel and Red undertones",
+                      "Khartoum - Dark 4 - Dark with Espresso undertone",
+                      "Macao - Medium-Dark 4 - Medium-Dark with Deep Yellow undertone",
+                      "New Orleans - Dark 2 - Dark with Yellow undertone",
+                      "Punjab - Medium 1 - Medium with Golden, Peachy undertone",
+                      "Sante Fe - Medium 2 - Medium with Peachy undertone",
+                      "Siberia - Light 1 - Light with Neutral balance of Pink and Yellow undertones",
+                      "Stromboli - Medium 3 - Medium with Olive undertone",
+                      "Tahoe - Medium-Dark 2 - Medium-Dark with Caramel undertone",
+                      "Vallauris - Medium 1.5 - Medium with Pink undertone"
+                    ]
+                  },
+                  "Sheer Matte Foundation": {
+                    "shade": [
+                      "Cadiz",
+                      "Khartoum",
+                      "Vallauris"
+                    ]
+                  },
+                  "Velvet Matte Skin Tint Broad Spectrum SPF 30": {
+                    "shade": [
+                      "Alaska - Light 2 - Light with a Neutral balance of Pink and Yellow undertones",
+                      "Annapurna - Medium 2 - Medium with a Neutral Peachy undertone",
+                      "Cuba - Medium 3 - Medium with a Neutral balance of Pink and Yellow undertones",
+                      "Malaga - Med\/Dark 1 - Medium Dark with Warm Caramel undertones",
+                      "Martinique - Med\/Dark 3 - Medium Dark with Warm Red undertones",
+                      "Seychelles - Med\/Dark 2 - Medium Dark with Golden Olive",
+                      "St. Moritz - Medium 1 - Medium with a Neutral Yellow undertone",
+                      "Terre Nuvve - Light 0 - Lightest with Neutral Pink undertones"
+                    ]
+                  }
+                }
+              },
+              "NYX": {
+                "foundation": {
+                  "High Definition Foundation": {
+                    "shade": [
+                      "Medium - Medium with Golden Undertones",
+                      "Natural Beige - Medium with Deep Beige"
+                    ]
+                  },
+                  "Total Control Drop Foundation": {
+                    "shade": [
+                      "Beige - Medium Beige with Yellow undertone",
+                      "Buff - Beige with Neutral Undertone",
+                      "Camel - Medium Beige with Neutral undertone",
+                      "Cappuccino - Medium Deep with Neutral Undertone",
+                      "Caramel - Caramel Beige with Olive Undertone",
+                      "Chestnut - Deepest Deep with Neutral Undertone",
+                      "Cinnamon - Medium Deep with Warm undertone",
+                      "Classic Tan - Tan with Pink Undertone",
+                      "Cocoa - Deep with Red Undertone",
+                      "Deep Cool - Deep with Cool Undertone",
+                      "Deep Rich - Deep with Pink Undertone",
+                      "Deep Sable - Deep with Neutral Undertone",
+                      "Golden - Medium Deep with Neutral Undertone",
+                      "Golden Honey - Deep Honey with Neutral",
+                      "Light Ivory - Ivory With Pink Undertone",
+                      "Mahogany - Medium Deep with Pink Undertone",
+                      "Mocha - Deep Mocha with Olive Undertone",
+                      "Nude - Nude with Neutral Undertone",
+                      "Nutmeg - Medium Deep with Cool undertone"
+                    ]
+                  },
+                  "Total Control Mesh Cushion Foundation": {
+                    "shade": [
+                      "Natural Beige"
+                    ]
+                  }
+                }
+              },
+              "Revlon": {
+                "foundation": {
+                  "Age Defying Firming + Lifting Makeup": {
+                    "shade": [
+                      "55 Cool Beige"
+                    ]
+                  },
+                  "ColorStay Active Light Makeup SPF 25 - DISCONTINUED": {
+                    "shade": [
+                      "Medium Beige 240"
+                    ]
+                  },
+                  "ColorStay Full Cover Foundation": {
+                    "shade": [
+                      "Buff"
+                    ]
+                  },
+                  "ColorStay Makeup For Combination\/Oily Skin": {
+                    "shade": [
+                      "375 Toffee"
+                    ]
+                  },
+                  "ColorStay Makeup Normal\/Dry Skin": {
+                    "shade": [
+                      "110 Ivory",
+                      "130 Porcelain",
+                      "250 Fresh Beige",
+                      "320 True Beige",
+                      "400 Caramel"
+                    ]
+                  },
+                  "ColorStay Stay Natural Makeup SPF 15": {
+                    "shade": [
+                      "True Beige"
+                    ]
+                  },
+                  "Colorstay Whipped Creme Makeup": {
+                    "shade": [
+                      "340 Caramel"
+                    ]
+                  },
+                  "ColourStay Aqua Mineral Makeup": {
+                    "shade": [
+                      "Deep"
+                    ]
+                  },
+                  "New Complexion One-Step Compact Makeup": {
+                    "shade": [
+                      "05 Medium Beige",
+                      "Toffee - With SPF 15"
+                    ]
+                  },
+                  "Photoready Airbrush Effect Makeup": {
+                    "shade": [
+                      "009 Rich Ginger \/ Gingembre Riche",
+                      "010 Caramel"
+                    ]
+                  },
+                  "Photoready Insta-fix Makeup": {
+                    "shade": [
+                      "190 Caramel"
+                    ]
+                  },
+                  "Youth FX Fill + Blur Foundation SPF30": {
+                    "shade": [
+                      "110 Ivory",
+                      "210 Sand Beige"
+                    ]
+                  }
+                }
+              },
+              "Rimmel": {
+                "foundation": {
+                  "Clean Finish Foundation": {
+                    "shade": [
+                      "240 Soft Beige",
+                      "530 Warm Caramel"
+                    ]
+                  },
+                  "Fresher Skin Foundation SPF 15": {
+                    "shade": [
+                      "200 Soft Beige"
+                    ]
+                  },
+                  "Lasting Finish 25HR Foundation with Comfort Serum": {
+                    "shade": [
+                      "091 Light Ivory",
+                      "103 True Ivory",
+                      "200 Soft Beige",
+                      "201 Classic Beige",
+                      "203 True Beige",
+                      "303 True Nude",
+                      "400 Natural Beige"
+                    ]
+                  },
+                  "Lasting Finish Breathable Foundation": {
+                    "shade": [
+                      "001 Light Ivory",
+                      "010 Light Porcelain",
+                      "100 Ivory",
+                      "103 True Ivory",
+                      "200 Soft Beige",
+                      "203 True Beige",
+                      "300 Sand",
+                      "400 Natural Beige",
+                      "402 Bronze",
+                      "502 Noisette"
+                    ]
+                  },
+                  "Match Perfection Foundation": {
+                    "shade": [
+                      "081 Fair Ivory",
+                      "200 Soft Beige",
+                      "203 True Beige",
+                      "260 Natural Ivory",
+                      "300 Sand",
+                      "502 Noisette",
+                      "503 Mocha",
+                      "504 Deep Mocha",
+                      "Soft Ivory"
+                    ]
+                  },
+                  "Wake Me Up Foundation": {
+                    "shade": [
+                      "400 Natural Beige",
+                      "402 Bronze"
+                    ]
+                  }
+                }
+              },
+              "Sephora": {
+                "foundation": {
+                  "10HR Wear Perfection Foundation": {
+                    "shade": [
+                      "05 Light Porcelain (P)",
+                      "08 Light Ivory (P)",
+                      "12 Light Ecru (N)",
+                      "15 Peach Cream (N)",
+                      "16 Light Linen (Y)",
+                      "18 Light Cream (Y)",
+                      "20 Light Cream (Y)",
+                      "25 Medium Beige (N)",
+                      "26 Medium Peach (Y)",
+                      "28 Camel (Y)",
+                      "29 Medium Camel Intense (Y)",
+                      "33 Medium Walnut (N)",
+                      "40 Honey Bronze (Y)",
+                      "44 Praline (Y)",
+                      "45 Tan Cafe Latte (P)",
+                      "50 Deep Mocha (P)",
+                      "55 Deep Cocoa (N)",
+                      "56 Milk Chocolate (P)",
+                      "58 Dark Chocolate (P)",
+                      "65 Deep Dark Ebony (N)",
+                      "67 Expresso \/ Espresso (N)"
+                    ]
+                  },
+                  "8HR Mattifying Compact Foundation": {
+                    "shade": [
+                      "16  Linen",
+                      "31 Almond (D32)"
+                    ]
+                  },
+                  "Brightening and Hydrating Foundation": {
+                    "shade": [
+                      "26 Peach",
+                      "35 Mat Tan"
+                    ]
+                  },
+                  "Glow Perfection Foundation": {
+                    "shade": [
+                      "T10 Ivory",
+                      "T20 Cream",
+                      "T22 Natural",
+                      "T33 Walnut"
+                    ]
+                  },
+                  "Perfection Mist Airbrush Foundation": {
+                    "shade": [
+                      "Almond"
+                    ]
+                  },
+                  "Teint Infusion Ethereal Natural Finish Foundation": {
+                    "shade": [
+                      "14 Soft Beige",
+                      "16 Linen",
+                      "21 Petal",
+                      "23 Natural Beige",
+                      "25 Beige",
+                      "28 Camel",
+                      "50 - Mocha"
+                    ]
+                  }
+                }
+              },
+              "Shiseido": {
+                "foundation": {
+                  "Compact Foundation": {
+                    "shade": [
+                      "B40 NATURAL FAIR BEIGE"
+                    ]
+                  },
+                  "FUTURE SOLUTION LX Total Radiance Foundation": {
+                    "shade": [
+                      "Natural Fair Ochre",
+                      "Natural Light Ivory",
+                      "Natural Light Ochre"
+                    ]
+                  },
+                  "Lifting Foundation": {
+                    "shade": [
+                      "O6O NATURAL DEEP OCHRE"
+                    ]
+                  },
+                  "Perfect Hydrating BB Cream": {
+                    "shade": [
+                      "Medium"
+                    ]
+                  },
+                  "Perfect Refining Foundation": {
+                    "shade": [
+                      "O80 DEEP OCHRE"
+                    ]
+                  },
+                  "Sheer Matifying Compact": {
+                    "shade": [
+                      "B00 VERY LIGHT BEIGE"
+                    ]
+                  }
+                }
+              },
+              "Shu Uemura": {
+                "foundation": {
+                  "Face Architect Illuminating Moisture Fluid Foundation": {
+                    "shade": [
+                      "564 Medium Light"
+                    ]
+                  },
+                  "Face Architect Smooth Fit Fluid Foundation": {
+                    "shade": [
+                      "584 Fair Sand",
+                      "974 Light Honey"
+                    ]
+                  },
+                  "Petal Skin Cushion Foundation": {
+                    "shade": [
+                      "375",
+                      "554",
+                      "564",
+                      "574",
+                      "754"
+                    ]
+                  },
+                  "The Lightbulb Fluid Foundation and Sponge": {
+                    "shade": [
+                      "554 Medium Sand",
+                      "744 Moderate Beige",
+                      "784 Fair Beige"
+                    ]
+                  }
+                }
+              },
+              "Smashbox": {
+                "foundation": {
+                  "Camera Ready BB Cream Broad Spectrum SPF35": {
+                    "shade": [
+                      "Light",
+                      "Light Medium",
+                      "Medium\/Dark (Golden Medium Tan)"
+                    ]
+                  },
+                  "Camera Ready BB Water Broad Spectrum SPF 30": {
+                    "shade": [
+                      "Dark (Deep Tan)",
+                      "Light (Warm Light Beige)",
+                      "Medium (Natural Tan)",
+                      "Medium\/Dark (Golden Medium Tan)"
+                    ]
+                  },
+                  "Camera Ready CC Cream Broad Spectrum SPF30": {
+                    "shade": [
+                      "Fair\/Light (Warm Ivory)",
+                      "Light\/Neutral",
+                      "Medium\/Dark (Golden Medium Tan)"
+                    ]
+                  },
+                  "Studio Skin 15 Hour Wear Hydrating Foundation": {
+                    "shade": [
+                      "3.3",
+                      "4.1",
+                      "0.5 - Fair with cool undertone",
+                      "1.1 - Fair-light with neutral undertone",
+                      "1.15 - Fair-light with warm, peachy undertone",
+                      "1.2 - Fair-light with warm undertone",
+                      "2.1 - Light with warm, peachy undertone",
+                      "2.3 - Light-medium with warm undertone",
+                      "2.35 - Light-medium with warm golden undertone",
+                      "2.4 - Light-medium with warm, peachy undertone",
+                      "3.0 - Medium with cool undertone",
+                      "3.15 - Medium with neutral undertone",
+                      "3.35 - Medium-dark with warm undertone",
+                      "4.15 - Dark with cool undertone",
+                      "4.3 - Deep with neutral undertone",
+                      "4.35 - Deep with cool undertone",
+                      "4.4 - Deep with cool, reddish undertone"
+                    ]
+                  }
+                }
+              },
+              "Stila": {
+                "foundation": {
+                  "Aqua Glow\u2122 Serum Foundation": {
+                    "shade": [
+                      "Fair",
+                      "Light"
+                    ]
+                  },
+                  "One Step Makeup": {
+                    "shade": [
+                      "Medium"
+                    ]
+                  }
+                }
+              },
+              "Tarte": {
+                "foundation": {
+                  "Amazonian Clay 12-Hour Foundation SPF 15": {
+                    "shade": [
+                      "12B Fair Beige",
+                      "12S Fair Sand",
+                      "13N Ivory",
+                      "16B Fair-Light Beige",
+                      "16H Fair-Light Honey",
+                      "16N Fair-Light Neutral",
+                      "22B Light Beige",
+                      "22G Light Golden",
+                      "22N Light Neutral",
+                      "22S Light Sand",
+                      "27N Light-Medium Neutral",
+                      "27S Light-Medium Sand",
+                      "29B Light-Medium Beige",
+                      "29H Light-Medium Honey",
+                      "35B Medium Beige",
+                      "35H Medium Honey",
+                      "35N Medium Neutral",
+                      "35S Medium Sand",
+                      "36H Medium-Tan Honey",
+                      "37S Medium-Tan Sand",
+                      "44S Tan Sand",
+                      "46S Tan-Deep Sand",
+                      "47H Tan-Deep Honey",
+                      "51S Deep Sand",
+                      "53H Deep Honey"
+                    ]
+                  },
+                  "Amazonian Clay BB Tinted Moisturizer Broad Spectrum SPF 20": {
+                    "shade": [
+                      "Ivory",
+                      "Light",
+                      "Light-Medium",
+                      "Medium",
+                      "Tan"
+                    ]
+                  },
+                  "Amazonian Clay Full Coverage Airbrush Foundation": {
+                    "shade": [
+                      "Fair-Light Honey : Fair to Light skin with Peach Undertones",
+                      "Fair-Light Neutral : Fair to Light skin with Yellow and Pink Undertones",
+                      "Medium Beige : Medium skin with Pink Undertones",
+                      "Medium Neutral : Medium skin with Yellow and Pink",
+                      "Medium-Tan Sand : Medium to Tan skin with Yellow Undertones",
+                      "Rich Honey : Deeper skin with Peach Undertones",
+                      "Rich Sand : Deeper skin with Yellow Undertones",
+                      "Tan-Deep Honey : Tan to Deep skin with Peach Undertones"
+                    ]
+                  },
+                  "Rainforest of the Sea Water Foundation Broad Spectrum SPF 15": {
+                    "shade": [
+                      "Deep Honey - Deep skin with Peach undertones",
+                      "Deep Sand - Deep skin with Yellow undertones",
+                      "Fair Beige - Fair skin with Pink undertones",
+                      "Fair Neutral - Fair skin with Yellow and Pink undertones",
+                      "Fair-Light Neutral - Fair to Light skin with Yellow and Pink undertones",
+                      "Fair-Light Sand - Fair to Light skin with Yellow undertones",
+                      "Light Honey - Light skin with Peach undertones",
+                      "Light Neutral - Light skin with Yellow and Pink undertones",
+                      "Light Sand - Light skin with Yellow undertones",
+                      "Light-Medium Beige - Light to Medium skin with Pink undertones",
+                      "Light-Medium Honey - Light to Medium skin with Peach undertones",
+                      "Light-Medium Neutral - Light to Medium skin with Yellow and Pink undertones",
+                      "Light-Medium Sand - Light to Medium skin with Yellow undertones",
+                      "Medium Honey - Medium skin with Peach undertones",
+                      "Medium Neutral - Medium skin with Yellow and Pink undertones",
+                      "Medium Sand - Medium skin with Yellow undertones",
+                      "Medium-Tan Sand - Medium to tan skin with yellow undertones",
+                      "Porcelain - Very Fair skin",
+                      "Rich Sand - Ultra Deep skin with Cool undertones",
+                      "Tan Sand - Tan skin with Yellow undertones"
+                    ]
+                  },
+                  "Shape Tape Hydrating Foundation": {
+                    "shade": [
+                      "Fair Beige",
+                      "Fair-Light Neutral",
+                      "Light Neutral",
+                      "Light Sand",
+                      "Light-Medium Beige",
+                      "Light-Medium Honey",
+                      "Light-Medium Sand",
+                      "Mahogany",
+                      "Medium Honey",
+                      "Medium Neutral",
+                      "Medium Sand",
+                      "Medium-Tan Honey",
+                      "Medium-Tan Sand",
+                      "Porcelain",
+                      "Tan Sand"
+                    ]
+                  },
+                  "Shape Tape Matte Foundation": {
+                    "shade": [
+                      "Deep Honey",
+                      "Fair Neutral",
+                      "Fair-Light Neutral",
+                      "Light Neutral",
+                      "Light Sand",
+                      "Light-Medium Honey",
+                      "Light-Medium Neutral",
+                      "Medium Honey",
+                      "Medium Neutral",
+                      "Medium-Tan Honey",
+                      "Tan Honey"
+                    ]
+                  }
+                }
+              },
+              "Tom Ford": {
+                "foundation": {
+                  "Traceless Foundation Fluid SPF15": {
+                    "shade": [
+                      "Caramel",
+                      "Tawny",
+                      "Toffee",
+                      "Warm Almond"
+                    ]
+                  }
+                }
+              },
+              "Too Faced": {
+                "foundation": {
+                  "Born This Way Foundation": {
+                    "shade": [
+                      "Almond - Fair with Golden Undertones",
+                      "Brulee - Rich Tan with Golden Undertones",
+                      "Butter Pecan - Rich Tan with Neutral Undertones",
+                      "Caramel - Deep Tan with Neutral to Golden Undertones",
+                      "Chai - Deep with Golden Undertones",
+                      "Chestnut - Dark with Neutral to Golden Undertones",
+                      "Cloud - Fairest with Rosy Undertones",
+                      "Cocoa - Very Deep with Neutral Undertones",
+                      "Golden - Tan with Neutral to Pink Undertones",
+                      "Golden Beige - Light Medium with Golden Undertones",
+                      "Hazelnut - Very Deep with Pink Undertones",
+                      "Honey - Tan with Neutral to Golden Undertones",
+                      "Light Beige - Light Medium with Neutral to Golden Undertones",
+                      "Mahogany - Deep with Neutral to Pink Undertones",
+                      "Maple - Dark with Neutral to Pink Undertones",
+                      "Mocha - Deep Tan with Neutral to Pink Undertones",
+                      "Natural Beige - Medium with Neutral Undertones",
+                      "Pearl - Very Fair with Neutral to Golden Undertones",
+                      "Praline - Medium Tan with Golden Undertones",
+                      "Sable - Rich with Rosy Undertones",
+                      "Sand - Medium Tan with Neutral to Golden Undertones",
+                      "Snow - Very Fair with Neutral to Pink Undertones",
+                      "Spiced Rum - Very Deep with Rosy Undertones",
+                      "Swan - Fairest with Neutral Undertones",
+                      "Tiramisu - Deepest with Golden Undertones",
+                      "Truffle - Rich with Golden Undertones",
+                      "Vanilla - Fair Light with Neutral to Pink Undertones",
+                      "Warm Beige - Medium with Neutral to Golden Undertones",
+                      "Warm Nude - Light with Neutral to Golden Undertones",
+                      "Warm Sand - Tan with Golden Undertones"
+                    ]
+                  },
+                  "Peach Perfect Comfort Matte Foundation \u2013 Peaches and Cream Collection": {
+                    "shade": [
+                      "Honey - Tan w\/ Rosy undertones",
+                      "Light Beige - Light w\/ Neutral undertones",
+                      "Mahogany - Deep w\/ Rosy undertones",
+                      "Mocha - Deep tan w\/ Golden undertones",
+                      "Natural Beige - Light medium w\/ Neutral undertones",
+                      "Nude - Light w\/ Rosy undertones",
+                      "Porcelain - Fair w\/ Rosy undertones",
+                      "Sand - Medium w\/ Golden undertones",
+                      "Snow - Fairest w\/ Rosy undertones",
+                      "Vanilla - Very light w\/ Neutral undertones",
+                      "Warm Beige - Medium w\/ Neutral undertones",
+                      "Warm Nude - Light w\/ Golden undertones"
+                    ]
+                  }
+                }
+              },
+              "Trish McEvoy": {
+                "foundation": {
+                  "Even Skin Treatment Foundation SPF 15": {
+                    "shade": [
+                      "Bronze",
+                      "Caramel"
+                    ]
+                  }
+                }
+              },
+              "Ulta": {
+                "foundation": {
+                  "Demi Matte Foundation": {
+                    "shade": [
+                      "Classic Ivory C",
+                      "Cool Tan C"
+                    ]
+                  }
+                }
+              },
+              "Urban Decay": {
+                "foundation": {
+                  "Naked Skin Glow Cushion Compact Foundation": {
+                    "shade": [
+                      "2.75"
+                    ]
+                  },
+                  "Naked Skin One & Done Hybrid Complexion Perfector": {
+                    "shade": [
+                      "Deep"
+                    ]
+                  }
+                }
+              },
+              "Vichy": {
+                "foundation": {
+                  "Teint Ideal Illuminating Cream Foundation": {
+                    "shade": [
+                      "25 Sand"
+                    ]
+                  }
+                }
+              },
+              "Wet 'n' Wild": {
+                "foundation": {
+                  "PhotoFocus Foundation": {
+                    "shade": [
+                      "Amber Beige",
+                      "Caramel",
+                      "Cocoa",
+                      "Desert Beige",
+                      "Golden Beige",
+                      "Medium Beige",
+                      "Mocha",
+                      "Peach Natural",
+                      "Rose Ivory",
+                      "Toffee"
+                    ]
+                  }
+                }
+              },
+              "Yves Rocher": {
+                "foundation": {
+                  "Flawless Finish Fluid Foundation \/ Teint fluide zero defaut": {
+                    "shade": [
+                      "Pinky \/ Rose 100 Very light complexion"
+                    ]
+                  },
+                  "Matte Fluid Foundation": {
+                    "shade": [
+                      "Beige Mat Complexion (400)"
+                    ]
+                  }
+                }
+              },
+              "Yves Saint Laurent": {
+                "foundation": {
+                  "All Hours Full Coverage Matte Foundation": {
+                    "shade": [
+                      "B10 Porcelain",
+                      "B20 Ivory",
+                      "B30 Almond",
+                      "B40 Sand",
+                      "B50 Honey",
+                      "B60 Amber",
+                      "B70 Mocha",
+                      "BD40 Warm Sand",
+                      "BD50 Warm Honey",
+                      "BR20 Cool Ivory",
+                      "BR30 Cool Almond",
+                      "BR50 Cool Honey"
+                    ]
+                  },
+                  "Beauty Le Compact Encre De Peau": {
+                    "shade": [
+                      "BR20 Cool Ivory"
+                    ]
+                  },
+                  "Fushion Ink Cushion Foundation\/ Le Cushion Encre de Peau": {
+                    "shade": [
+                      "B50 Beige"
+                    ]
+                  },
+                  "Fusion Ink Foundation": {
+                    "shade": [
+                      "BD15 Warm Buff",
+                      "BD25 Warm Beige",
+                      "BD30 Warm Almond",
+                      "BD60 Warm Amber",
+                      "BD65 Warm Toffee \u2013 Medium deep, Warm undertone",
+                      "BR50 Cool Honey \u2013 Medium tan, Cool undertone"
+                    ]
+                  },
+                  "Le Teint Touche Eclat Lightweight Illuminating Foundation SPF 19": {
+                    "shade": [
+                      "B20 Ivory",
+                      "B40 Sand",
+                      "B50 Honey",
+                      "B60 Amber",
+                      "B70 Mocha",
+                      "BD20 BeigeDore",
+                      "BD25 Beige",
+                      "BD40 Warm Sand",
+                      "BD50 Honey",
+                      "BD60 Amber",
+                      "BR20 Beige",
+                      "BR30 Almond",
+                      "BR40 Beige Rose",
+                      "BR45 Bisque"
+                    ]
+                  },
+                  "Teint Encre De Peau Le Cushion \/ Le Cushion Encre de Peau": {
+                    "shade": [
+                      "Beige 30 - B30",
+                      "Beige 50 - B50"
+                    ]
+                  },
+                  "Teint Touche Eclat Foundation": {
+                    "shade": [
+                      "Beige - B45 \u2013 Medium beige, Neutral undertone",
+                      "Beige - B70",
+                      "Beige - B80",
+                      "Beige - B90",
+                      "Beige Dore - BD70 \u2013 Deep, Neutral undertone"
+                    ]
+                  },
+                  "Touche Eclar Le Teint Radiance Awakening Foundation": {
+                    "shade": [
+                      "B 20 Ivory",
+                      "B 30 Almond",
+                      "B 45 Bisque",
+                      "B 50 Honey",
+                      "B 60 Amber",
+                      "BD 50 Warm Honey",
+                      "BR 20 Cool Beige"
+                    ]
+                  },
+                  "Touche Eclat": {
+                    "shade": [
+                      "3.5 Luminous Almond",
+                      "5.5 Luminous Paraline"
+                    ]
+                  },
+                  "Touche Eclat - Radiant Touch": {
+                    "shade": [
+                      "1.5 Radiant Silk",
+                      "3 Light Peach",
+                      "3.5 Luminous Almond",
+                      "5.5 Luminous Praline"
+                    ]
+                  },
+                  "Touche Eclat Cushion Compact Foundation": {
+                    "shade": [
+                      "B 20 Ivory",
+                      "B 40 Sand"
+                    ]
+                  },
+                  "Touche Eclat Le Cushion": {
+                    "shade": [
+                      "B20 \u2013 Ivory",
+                      "BD50 \u2013 Warm Honey"
+                    ]
+                  },
+                  "Touche Eclat Le Teint Foundation": {
+                    "shade": [
+                      "B10",
+                      "B20",
+                      "B30",
+                      "B40",
+                      "B45",
+                      "B50",
+                      "B70",
+                      "BD10",
+                      "BD25",
+                      "BD30",
+                      "BD40",
+                      "BD50",
+                      "BD60",
+                      "BR10",
+                      "BR20",
+                      "BR45"
+                    ]
+                  },
+                  "TOUCHE ECLAT Radiance Perfecting Pen": {
+                    "shade": [
+                      "2 Luminous Ivory - for fair to light complexions with yellow undertones"
+                    ]
+                  },
+                  "Touche Eclat Water Glow Foundation": {
+                    "shade": [
+                      "B10 Porcelain - Fair",
+                      "B20 Ivory - Light 1",
+                      "B30 Almond - Light 2",
+                      "B50 Honey - Medium 1",
+                      "B60 Amber - Medium 2",
+                      "B70 Mocha - Deep 1",
+                      "BD40 Warm Sand - Light 3"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "displayId": "a65"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf95b5",
+          "viewType": "unstyled",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q22",
+          "questions": [
+            {
+              "_id": "5da48bc51c9d440000a9f1ed",
+              "title": "Pass, I'm not currently using another foundation",
+              "order": 1,
+              "status": "active"
+            },
+            {
+              "_id": "5da48c061c9d440000a9f1ef",
+              "title": "Can't find my brand/product/shade",
+              "order": 2,
+              "status": "active"
+            }
+          ],
+          "displayId": "a66"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e0d",
+      "status": "active",
+      "order": 18,
+      "viewType": "select-box",
+      "value": {
+        "title": [
+          "Which foundation are you currently using?"
+        ],
+        "subtitle": [
+          "This will allow us to double check and ensure your color match is perfect."
+        ]
+      },
+      "displayId": "q18"
+    },
+    {
+      "previousQuestionId": "q18",
+      "answers": [],
+      "_id": "5daee670ec75f02d6caf8e0e",
+      "status": "active",
+      "order": 19,
+      "viewType": "empty",
+      "value": {
+        "title": [
+          "Lorem ipsum dolor sit amet, te everti dolorem per,",
+          "ut torquatos orensibus vis, vix ex veri primis apeirian.",
+          "At eius soluta appetere vim. Assumgloriatur definitionem his ex."
+        ],
+        "image": "",
+        "button": "Got it"
+      },
+      "displayId": "q19"
+    },
+    {
+      "previousQuestionId": "q19",
+      "answers": [
+        {
+          "_id": "5daee676ec75f02d6caf8e42",
+          "value": {
+            "title": "Acne"
+          },
+          "viewType": "list-default",
+          "order": 1,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a51"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e43",
+          "value": {
+            "title": "Wrinkles & Fine lines"
+          },
+          "viewType": "list-default",
+          "order": 2,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a52"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e44",
+          "value": {
+            "title": "Dry, Flakey, Skin"
+          },
+          "viewType": "list-default",
+          "order": 3,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a53"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e45",
+          "value": {
+            "title": "Grease & Oil"
+          },
+          "viewType": "list-default",
+          "order": 4,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a54"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e46",
+          "value": {
+            "title": "Redness, Irriratiom, And/Or Sensitivity"
+          },
+          "viewType": "list-default",
+          "order": 5,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a55"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e47",
+          "value": {
+            "title": "Enlarged Pores"
+          },
+          "viewType": "list-default",
+          "order": 6,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a56"
+        },
+        {
+          "_id": "5daee676ec75f02d6caf8e48",
+          "value": {
+            "title": "No concerns really, I'm Gucci"
+          },
+          "viewType": "list-default",
+          "order": 7,
+          "status": "active",
+          "weight": 0,
+          "nextQuestionId": "q23",
+          "displayId": "a57"
+        }
+      ],
+      "_id": "5daee670ec75f02d6caf8e0f",
+      "status": "active",
+      "order": 20,
+      "viewType": "list",
+      "multiselect": true,
+      "value": {
+        "title": [
+          "What are your biggest skin concerns?"
+        ],
+        "subtitle": [
+          "(Check all that apply)"
+        ]
+      },
+      "displayId": "q20"
+    },
+    {
+      "previousQuestionId": "q20",
+      "answers": [],
+      "_id": "5daee670ec75f02d6caf8e10",
+      "status": "active",
+      "order": 21,
+      "viewType": "closing-screen",
+      "value": {
+        "title": "",
+        "subtitle": "",
+        "button": "Find My Foundation"
+      },
+      "steps": [
+        {
+          "title": [
+            "\"The best part I like about it that",
+            "it's lightweight and natural.",
+            "Thank you for this product!\""
+          ],
+          "subtitle": [
+            "Willow B.&nbsp;",
+            "Verified buyer"
+          ],
+          "image": "https://files.ilmakiage.com/quiz/calculating-screen-rating.png"
+        },
+        {
+          "title": [
+            "You're a star!"
+          ],
+          "subtitle": [
+            "Fill in your email to meet your match"
+          ],
+          "image": "https://files.ilmakiage.com/quiz/star-image.png"
+        }
+      ],
+      "displayId": "q21"
+    }
+  ],
+  "_id": "5d82188869eae6092ff74b26",
+  "name": "foundation quiz 1",
+  "typeId": "5d82181c69eae6092ff74b23",
+  "status": "active",
+  "order": 1,
+  "type": "foundation"
+}
