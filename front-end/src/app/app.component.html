@@ -4,23 +4,30 @@
   <img src="./assets/footer-logo.png" />
 </mat-toolbar>
 
-<div class="text-center">
+<div class="text-center spacing">
   <h4>Search Farm</h4>
   <mat-form-field appearance="fill">
     <mat-label>Farm</mat-label>
-    <mat-select [(value)]="selected">
+    <mat-select panelClass="wider-select" [formControl]="selectedCtrl">
       <mat-option>
-        <ngx-mat-select-search ngModel (ngModelChange)="filterMyOptions($event)"></ngx-mat-select-search>
+        <ngx-mat-select-search
+          [formControl]="searchCtrl"
+          [searching]="searching"
+          placeholderLabel="Find farm..."
+          noEntriesFoundLabel="'No matching farm found'"
+          [clearSearchInput]="false"
+        >
+        </ngx-mat-select-search>
       </mat-option>
       <mat-select-trigger>
-        {{selected ? selected._source.name : ''}}
+        {{selectedCtrl?.value?.name}}
       </mat-select-trigger>
       <mat-option
-        *ngFor="let location of locations"
+        *ngFor="let location of locations$ | async"
         [value]="location"
       >
         <mat-icon class="material-icons"> near_me </mat-icon>
-        {{ location._source.name }}
+        {{ location.name }}
       </mat-option>
     </mat-select>
   </mat-form-field>

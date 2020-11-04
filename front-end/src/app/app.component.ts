@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { Observable } from 'rxjs';
+import { debounceTime, switchMap, tap } from 'rxjs/operators';
 import { Location } from './location';
+import { LocationDataService } from './services/location-data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,34 +11,19 @@ import { Location } from './location';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  locations: Location[];
-  selected: Location;
+  public locations$: Observable<Location[]>;
+  public selectedCtrl: FormControl = new FormControl();
+  public searchCtrl: FormControl = new FormControl();
+  public searching = false;
+
+  constructor(private dataService: LocationDataService) {}
 
   ngOnInit(): void {
-    this.locations = [
-      {
-        _index: 'locations',
-        _type: '_doc',
-        _id: 'kJMSj3UBYZnwOAaBRF2E',
-        _score: 7.1943026,
-        _source: { name: 'กศน.ตำบลเหมือง', location: [13.2683616, 100.968201] },
-      },
-      {
-        _index: 'locations',
-        _type: '_doc',
-        _id: 'PpMSj3UBYZnwOAaBRFmE',
-        _score: 6.2172985,
-        _source: { name: 'กศน.ตำบลเมือง', location: [14.584854, 104668978] },
-      },
-      {
-        _index: 'locations',
-        _type: '_doc',
-        _id: 'p5MSj3UBYZnwOAaBRGKF',
-        _score: 6.2172985,
-        _source: { name: 'กศน.ตำบลเมือง', location: [17.5571068, 101.709187] },
-      },
-    ];
+    this.locations$ = this.searchCtrl.valueChanges.pipe(
+      tap(() => (this.searching = true)),
+      debounceTime(200),
+      switchMap((search) => this.dataService.getLocationData(search)),
+      tap(() => (this.searching = false))
+    );
   }
-
-  // filterMyOptions(event: )
 }

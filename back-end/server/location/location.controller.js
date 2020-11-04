@@ -5,6 +5,9 @@ const elasticSearchDataService = require("../services/elastic-search-data-servic
 const getLocations = async (req, res, next) => {
   const { client } = req.app.locals;
   const { q } = req.query;
+
+  if (!q) return res.send([]);
+
   try {
     const rawData = await elasticSearchDataService.getElasticSearchData(
       client,
