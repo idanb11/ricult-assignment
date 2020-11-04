@@ -9,6 +9,9 @@
   <mat-form-field appearance="fill">
     <mat-label>Farm</mat-label>
     <mat-select [(value)]="selected">
+      <mat-option>
+        <ngx-mat-select-search ngModel (ngModelChange)="filterMyOptions($event)"></ngx-mat-select-search>
+      </mat-option>
       <mat-select-trigger>
         {{selected ? selected._source.name : ''}}
       </mat-select-trigger>
