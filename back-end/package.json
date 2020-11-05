@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "import_data": "node db-data-seeder/import-json-to-elastic.js",
     "start_local": "nodemon --watch *.js --watch ./config*.js index.js"
   },
   "repository": {

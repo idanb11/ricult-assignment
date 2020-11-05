@@ -1,4 +1,5 @@
 const { createReadStream } = require("fs");
+const path = require("path");
 const split = require("split2");
 const { Client } = require("@elastic/elasticsearch");
 
@@ -7,7 +8,7 @@ async function importData() {
 
   try {
     const result = await client.helpers.bulk({
-      datasource: createReadStream("./thai-schools.json").pipe(split()),
+      datasource: createReadStream(path.join(__dirname, "/thai-schools.json")).pipe(split()),
       onDocument(doc) {
         return {
           index: { _index: "locations" },
@@ -16,6 +17,7 @@ async function importData() {
     });
 
     console.log(result);
+    process.exit();
   } catch (error) {
     throw new Error(error);
   }
